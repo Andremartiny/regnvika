@@ -10,8 +10,4 @@ Du har en arbeidsplass med 100 kontorer på rad. Førstemann som kommer på jobb
 > **Spørsmål**
 >  Hvor mange lys vil være på når alle 100 har kommet til jobb?
 
-<iframe src="../vedlegg/100-dorer.html" width="100%" height="600" title="Lyspæreproblemet – interaktiv"></iframe>
-
-## Løsningsforslag
-
-[[../losninger/lyspaereproblemet|Åpne løsningsforslaget]].
+<iframe src="../../vedlegg/100-dorer.html" width="100%" height="600" title="Lyspæreproblemet – interaktiv"></iframe>
