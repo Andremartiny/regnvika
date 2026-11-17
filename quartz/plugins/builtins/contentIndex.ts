@@ -169,6 +169,7 @@ export function buildContentIndex(
       slug,
       filePath: data.relativePath as FilePath,
       title: (frontmatter.title as string | undefined) ?? "",
+      order: frontmatter.order,
       links: (data.links as SimpleSlug[] | undefined) ?? [],
       tags: (frontmatter.tags as string[] | undefined) ?? [],
       content: text ?? "",

@@ -131,21 +131,18 @@ plugins:
     options:
       localGraph:
         zoom: true
-        scale: 1.5
+        scale: 3
         fontSize: 0.9
         opacityScale: 3
         focusOnHover: false
         showTags: false
       globalGraph:
         zoom: true
-        scale: 1.5
+        scale: 3
         fontSize: 0.9
         opacityScale: 3
         focusOnHover: false
         showTags: false
-        enableRadial: false
-        repelForce: 0.2
-        linkDistance: 20
     layout:
       position: right
       priority: 10

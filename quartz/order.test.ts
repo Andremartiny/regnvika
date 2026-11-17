@@ -4,7 +4,7 @@ import { build } from "esbuild"
 import { compareByOrder } from "./order"
 
 const page = (order?: string, title = "Notat") => ({
-  frontmatter: { title, tags: order ? [`rekkefolge/${order}`] : ["emne"] },
+  frontmatter: { title, order },
 })
 
 test("new notes fit between existing notes without renumbering", () => {
@@ -14,10 +14,9 @@ test("new notes fit between existing notes without renumbering", () => {
   ])
 })
 
-test("segments use numeric order, including the optional dot notation", () => {
+test("segments use numeric order", () => {
   assert.ok(compareByOrder(page("1/2"), page("1/10")) < 0)
-  assert.ok(compareByOrder(page("1.2"), page("1.10")) < 0)
-  assert.equal(compareByOrder(page("100/10"), page("100.10")), 0)
+  assert.ok(compareByOrder(page("1/2/3"), page("1/2/10")) < 0)
 })
 
 test("zero works and unordered notes appear last, with Norwegian title ordering", () => {
@@ -28,7 +27,9 @@ test("zero works and unordered notes appear last, with Norwegian title ordering"
 })
 
 test("Explorer nodes and page metadata agree", () => {
-  const node = (order: string) => ({ data: { title: "Notat", tags: [`rekkefolge/${order}`] } })
+  const node = (order: string) => ({
+    data: { title: "Notat", order },
+  })
   assert.equal(Math.sign(compareByOrder(node("100/10"), node("150"))), -1)
   assert.equal(Math.sign(compareByOrder(node("100/10"), page("150"))), -1)
 })

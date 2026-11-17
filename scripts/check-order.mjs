@@ -13,17 +13,19 @@ async function check(directory) {
       await check(filename)
     } else if (entry.name.endsWith(".md")) {
       const { data } = matter(await readFile(filename, "utf8"))
-      const raw = data.tags ?? data.tag ?? []
-      const tags = Array.isArray(raw) ? raw : String(raw).split(/[,\s]+/)
-      const orderTags = tags.filter((tag) => String(tag).startsWith("rekkefolge/"))
-      if (orderTags.length > 1) problems.push(`${filename}: bruk bare én rekkefølge-tag.`)
-      for (const tag of orderTags) {
-        if (
-          !/^rekkefolge\/\d+(?:[/.]\d+)*$/.test(tag) ||
-          !tag.slice("rekkefolge/".length).split(/[/.]/).every((part) => Number.isSafeInteger(Number(part)))
-        ) {
-          problems.push(`${filename}: ugyldig tagg «${tag}». Bruk f.eks. rekkefolge/100/10.`)
-        }
+      const value = data.order
+      const order =
+        typeof value === "string" || typeof value === "number"
+          ? String(value).trim()
+          : ""
+
+      if (
+        !/^\d+(?:\/\d+)*$/.test(order) ||
+        !order.split("/").every((part) => Number.isSafeInteger(Number(part)))
+      ) {
+        problems.push(
+          `${filename}: ugyldig eller manglende order. Bruk f.eks. "100/10".`,
+        )
       }
       count++
     }

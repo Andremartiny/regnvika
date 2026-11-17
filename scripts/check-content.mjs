@@ -28,7 +28,13 @@ for (const filename of files) {
   // Obsidian/HTML comments are not visible links in the published page.
   const raw = original.replace(/%%[\s\S]*?%%/g, "").replace(/<!--[\s\S]*?-->/g, "")
   if (!data.title) errors.push(`${filename}: mangler title.`)
-  if (!data.tags?.some((tag) => tag.startsWith("rekkefolge/"))) errors.push(`${filename}: mangler rekkefølge-tagg.`)
+  if (
+  data.order === undefined ||
+  data.order === null ||
+  String(data.order).trim() === ""
+) {
+  errors.push(`${filename}: mangler order.`)
+}
   const references = []
   for (const m of raw.matchAll(/(!?)\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g)) references.push([m[2], true, m[1] === "!"])
   for (const m of raw.matchAll(/(!?)\[[^\]\n]*\]\(([^)\n]+)\)/g)) references.push([m[2], false, m[1] === "!"])
