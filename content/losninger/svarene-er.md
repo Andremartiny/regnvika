@@ -1,14 +1,13 @@
 ---
 title: Svarene er – løsningsforslag
-order: "300/100"
+order: 300/100
 tags:
-  - type/losning
-  - matematikk/tall-og-regning
 alder: alle
 draft: "true"
 ---
 
 [[../undervisningsressurser/oppgaver/svarene-er|Til oppgaven: Svarene er]].
+
 ## Løsninger
 
 ## 5.-VGS.-Trinn

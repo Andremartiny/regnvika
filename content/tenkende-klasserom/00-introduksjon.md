@@ -1,9 +1,7 @@
 ---
 title: Introduksjon
-order: "100/100"
+order: 100/100
 tags:
-  - type/fagnotat
-  - btc/grunnlag
 ---
 
 `For å lære må man tenke`

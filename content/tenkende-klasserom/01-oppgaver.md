@@ -1,9 +1,7 @@
 ---
 title: 1. Oppgaver
-order: "100/200"
+order: 100/200
 tags:
-  - type/fagnotat
-  - btc/oppgaver
 created: 2023-09-11
 status: arbeidsnotat
 ---

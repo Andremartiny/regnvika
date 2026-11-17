@@ -1,9 +1,7 @@
 ---
 title: Kaptein Sabeltann og den magiske diamant – løsningsforslag
-order: "300/500"
+order: 300/500
 tags:
-  - type/losning
-  - matematikk/logikk-og-strategi
 draft: "true"
 ---
 
@@ -40,7 +38,7 @@ Vi kan altså se at hvis vi skriver antall personer som $n = 2^k+m$, der $m < 2^
 
 La oss bryte dette ned i noen eksempler: 
 - Hvis antall personer er $15$, så er $8$ høyeste toerpotens mindre enn $15$. Jeg må legge til $3$ for å komme til $8\cdot 2 + 2 = 18$. Dermed er startposisjonen $3$. 
-- Hvis antall personer er $24$, er høyeste toerpotens  mindre enn $24$ nemlig 16. For å komme til $16\cdot 2 +2 = 34$ må vi legge til 10. Dermed er startposisjonen 10. 
+- Hvis antall personer er $24$, er høyeste toerpotens mindre enn $24$ nemlig 16. For å komme til $16\cdot 2 +2 = 34$ må vi legge til 10. Dermed er startposisjonen 10. 
 - Hvis vi er 55 pirater, vil 32 være toerpotensen vi tar utgangspunkt i. Vi må altså opp til $66$ og ser at vi mangler 11. Dermed er startposisjonen 11.
 
 **Merk:** Det er også mulig å bare tenke rett til neste toerpotens og se hva som mangler for å komme to over. Da ser vi i eksemplene over at vi må fra 15 til 18 og mangler 3, vi må fra 24 til 34 og mangler 10, vi må fra 55 til 66 og mangler 11. Denne metoden er kanskje enda raskere.

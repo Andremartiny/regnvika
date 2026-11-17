@@ -1,10 +1,7 @@
 ---
 title: Bankraneren
-order: "200/300/200"
+order: 200/300/200
 tags:
-  - type/oppgave
-  - matematikk/geometri
-  - arbeidsmate/grubleoppgave
 created: 2023-08-29
 status: arbeidsnotat
 relatert:

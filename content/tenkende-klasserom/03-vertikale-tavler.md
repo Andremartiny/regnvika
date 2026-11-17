@@ -1,9 +1,7 @@
 ---
 title: 3. Viskbare vertikale tavler
-order: "100/400"
+order: 100/400
 tags:
-  - type/fagnotat
-  - btc/organisering
 created: 2023-09-11
 status: arbeidsnotat
 relatert:
@@ -22,13 +20,15 @@ Det er mange grunner til at de skal være vertikale. Det gir bedre oversikt for 
 - Elevene blir mindre passive og anonyme. De kan ikke lenger gjemme seg bort slik de kan i arbeidsbøkene sine. 
 - Å sitte er gjør at man kommer i en veldig passiv tilstand. Bare det å stå aktiviserer i seg selv. Øker dermed engasjement.
 - Læreren kan få og har mye bedre oversikt over hvor
-  
 
 ## Tiltak mot et tenkende klasserom
+
 ### Makrotiltak
+
 - [ ] Bruk vertikale, slettbare flater.
 
 ### Mikrotiltak
+
 - [ ] Bare én tusj per gruppe
 - [ ] Pass på at elevene har tusjen etter tur
 - [ ] Ha iblant som regel at den som skriver, ikke skal notere ned egne ideer

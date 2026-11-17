@@ -1,9 +1,7 @@
 ---
 title: 12. Vurder det du verdsetter
-order: "100/1300"
+order: 100/1300
 tags:
-  - type/fagnotat
-  - btc/oppfolging
 created: 2026-11-13
 status: arbeidsnotat
 relatert:

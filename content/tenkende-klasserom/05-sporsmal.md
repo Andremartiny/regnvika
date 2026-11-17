@@ -1,9 +1,7 @@
 ---
 title: 5. Svare på spørsmål
-order: "100/600"
+order: 100/600
 tags:
-  - type/fagnotat
-  - btc/laererrollen
 created: 2023-09-11
 status: arbeidsnotat
 ---
@@ -19,12 +17,15 @@ Det er tre typer spørsmål man vil møte på.
 ![[../vedlegg/sporsmal.svg|200]]
 
 Siden vi ønsker å fostre tenking bør vi kun svare på fortsett-å-tenk-spørsmål og vise at vi verdsetter elevenes tenking. 
+
 ## Tiltak mot et tenkende klasserom
 
 ### Makrotiltak
+
 - [ ] Svar bare på fortsett-å-tenke-spørsmål
 
 ### Mikrotiltak
+
 - [ ] Når elevene stiller deg et **tett-på-spørsmål** eller **slutt-å-tenk-spørsmål** som du ikke vil svare på, kan du heller svare dem med et av disse spørsmålene
     - [ ] Er ikke det interessant?
     - [ ]  Spør du, eller forteller du meg det?

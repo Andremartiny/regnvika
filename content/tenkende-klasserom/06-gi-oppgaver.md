@@ -1,9 +1,7 @@
 ---
 title: 6. Hvordan gi oppgaver
-order: "100/700"
+order: 100/700
 tags:
-  - type/fagnotat
-  - btc/oppgaver
 created: 2023-09-04
 status: arbeidsnotat
 relatert:
@@ -27,14 +25,17 @@ Elevene henger seg opp i detaljer som gis skriftlig. Vi bør derfor unngå skrif
 Det bør ikke være mulig å forstå hva de skal gjøre ved å kun se på tavlen der detaljene ble skrevet. Dersom noe må gis skriftlig, for eksempel en tabell eller lignende, bør det være så smått at de ikke kan skrive på det de får. 
 
 ![[../vedlegg/konsolidering 2.svg|300]]
+
 ## Tiltak mot et tenkende klasserom
 
 ### Makrotiltak
+
 - [ ] Gi elevene den første tenkeoppgaven i løpet av de tre til fem første minuttene av timen.
 - [ ] Gi dem oppgaven mens de står samlet rundt deg.
 - [ ] Utform tenkeoppgaven muntlig.
 
 ### Mikrotiltak
+
 - [ ] Skap rom og plass til at alle elevene kan stå behagelig
 - [ ] Stå gjerne på forskjellige steder i rommet når du presenterer oppgaver for elevene
 - [ ] Hvis elevene trenger ny kunnskap for å kunne løse den første oppgaven, tenker du gjennom hvor lite du kan si og skrive for at de skal kunne løse oppgaven.

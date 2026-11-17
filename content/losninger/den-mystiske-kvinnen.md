@@ -1,9 +1,7 @@
 ---
 title: Den mystiske kvinnen – løsningsforslag
-order: "300/400"
+order: 300/400
 tags:
-  - type/losning
-  - matematikk/logikk-og-strategi
 draft: "true"
 ---
 

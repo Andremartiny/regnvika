@@ -1,9 +1,7 @@
 ---
 title: 10. Oppsummering
-order: "100/1100"
+order: 100/1100
 tags:
-  - type/fagnotat
-  - btc/oppfolging
 created: 2023-09-04
 updated: 2026-11-13
 status: arbeidsnotat
@@ -14,7 +12,6 @@ draft: "false"
 ## Konsolidering
 
 Konsolidering handler om å samle elevenes arbeid til en matematisk sammenheng. Læreren tar utgangspunkt i ideer fra gruppene og bygger fra noe alle kan få tak i, mot sammenhengen timen skal utvikle. Dette er hensikten med å *forankre fra bunnen av*. [Liljedahls offentlige sammendrag](https://us.corwin.com/docs/default-source/resources-documents/us-1581808-what-is-building-thinking-classroo.pdf?sfvrsn=39bb5efb_0). Vi skal bruke mest tid på det alle har fått til.
-
 
 ## Fra gruppearbeid til felles forståelse
 

@@ -1,18 +1,18 @@
 ---
 title: Skatteinnkreveren – løsningsforslag
-order: "300/200"
+order: 300/200
 tags:
-  - type/losning
-  - matematikk/tall-og-regning
 created: 2023-08-29
 status: arbeidsnotat
 draft: "true"
 ---
 
 [[../undervisningsressurser/oppgaver/skatteinnkreveren|Til oppgaven: Skatteinnkreveren]].
+
 ## Eksempler
 
 ### Eksempel 1
+
 | Mine beløp                               | Skatteinnkreverens beløp      | Resterende beløp                      |
 | ---------------------------------------- | ----------------------------- | ------------------------------------- |
 |                                          |                               | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 |
@@ -33,7 +33,6 @@ draft: "true"
 | Ikke flere muligheter, spillet er slutt |                          |                                       |
 | 7, 9, 10, 12                            | 1, 2, 3, 4, 5, 7, 8, 11  |                                       |
 
-
 ### Eksempel 3
 
 | Mine beløp       | Skatteinnkreverens beløp | Resterende beløp                      |
@@ -47,11 +46,6 @@ draft: "true"
 | Spillet er slutt |                          |                                       |
 | 8, 9, 10, 11, 12 | 1, 2, 3, 4, 5, 6, 7      |                                       |
 
-
-
-
- 
 ## Referanser
-
 
 [@LiljedahlPeter2023Åbtk]

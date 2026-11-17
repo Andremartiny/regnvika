@@ -1,9 +1,7 @@
 ---
 title: 11. Meningsfulle notater
-order: "100/1200"
+order: 100/1200
 tags:
-  - type/fagnotat
-  - btc/oppfolging
 created: 2026-11-13
 status: arbeidsnotat
 relatert:
@@ -15,6 +13,7 @@ draft: "true"
 ## Hva skal notatene hjelpe med?
 
 Elevene lager et minne de selv kan bruke senere. De må velge hva som er viktig, og hvordan en idé kan forklares slik at den blir nyttig når de har glemt noe. Denne tanken om notater til sitt framtidige jeg er sentral i BTC.
+
 ## Etter konsolideringen
 
 En mulig invitasjon er:

@@ -1,9 +1,7 @@
 ---
 title: 8. Mobilisere kunnskap
-order: "100/900"
+order: 100/900
 tags:
-  - type/fagnotat
-  - btc/samarbeid
 created: 2023-09-11
 status: arbeidsnotat
 ---
@@ -15,12 +13,15 @@ Vi ønsker et læringsmiljø der alle kan lære av alle og der vi (lærere) ikke
 ![[../vedlegg/mobilisering 1.svg|200]]
 
 Får vi til et slikt miljø vil vi minimere dødtid (der elever står å venter på hjelp eller nye utvidelser av oppgaven) og elevene kan også få større læringsutbytte da de må øve på kommunikasjon av matematikk (dette inkludere å forstå andre gruppers arbeid bare ved å se på - passiv samspill). 
+
 ## Tiltak mot et tenkende klasserom
 
 ### Makrotiltak
+
 - [ ] Mobiliser kunnskapen som allerede finnes i rommet
 
 ### Mikrotiltak
+
 - [ ] Støtt elevene i passive samspill ved å oppfordre til å se på hva andre grupper gjør.
 - [ ] Støtt elevene i aktive samspill ved å foreslå at gruppene snakker sammen.
 - [ ] Vær bevisst mindre hjelpsom.

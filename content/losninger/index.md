@@ -2,8 +2,6 @@
 title: Løsningsforslag
 order: "300"
 tags:
-  - type/oversikt
-  - type/losning
 draft: "true"
 ---
 

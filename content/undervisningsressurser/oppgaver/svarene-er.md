@@ -1,11 +1,7 @@
 ---
 title: Svarene er
-order: "200/100/100"
+order: 200/100/100
 tags:
-  - type/oppgave
-  - matematikk/tall-og-regning
-  - arbeidsmate/grubleoppgave
-  - arbeidsmate/oppgavestreng
 alder: alle
 relatert:
 ---
