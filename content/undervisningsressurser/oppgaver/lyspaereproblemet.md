@@ -11,7 +11,7 @@ Du har en arbeidsplass med 100 kontorer på rad. Førstemann som kommer på jobb
 >  Hvor mange lys vil være på når alle 100 har kommet til jobb?
 
 <iframe
-  src="https://andremartiny.github.io/regnvika/vedlegg/100-dorer.html"
+  src="https://andremartiny.github.io/regnvika/vedlegg/100-dorer"
   width="100%"
   height="600"
   title="100 dører">
