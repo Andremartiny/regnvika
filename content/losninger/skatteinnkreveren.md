@@ -9,7 +9,7 @@ status: arbeidsnotat
 draft: "true"
 ---
 
-[[../oppgaver/skatteinnkreveren|Til oppgaven: Skatteinnkreveren]].
+[[../undervisningsressurser/oppgaver/skatteinnkreveren|Til oppgaven: Skatteinnkreveren]].
 ## Eksempler
 
 ### Eksempel 1

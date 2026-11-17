@@ -6,7 +6,7 @@ title: De gavmilde - løsningsforslag
 ---
 
 
-[[../oppgaver/de-gavmilde|Til oppgaven]]
+[[../undervisningsressurser/oppgaver/de-gavmilde|Til oppgaven]]
 ## Løsninger på originale problemet
 
 ### Løsning 1

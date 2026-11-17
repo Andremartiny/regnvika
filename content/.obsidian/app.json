@@ -1,6 +1,27 @@
 {
-  "useMarkdownLinks": true,
+  "showLineNumber": true,
+  "showFrontmatter": true,
+  "useMarkdownLinks": false,
   "newLinkFormat": "relative",
+  "userIgnoreFilters": null,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "vedlegg"
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Files",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Tabloid",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "useTab": false,
+  "tabSize": 4,
+  "readableLineLength": false,
+  "promptDelete": false,
+  "strictLineBreaks": false,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "spellcheck": true
 }

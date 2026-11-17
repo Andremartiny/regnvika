@@ -5,7 +5,7 @@ tags:
 draft: "true"
 ---
 
-[[../oppgaver/landeveien|Til oppgaven: Landeveien]].
+[[../undervisningsressurser/oppgaver/landeveien|Til oppgaven: Landeveien]].
 
 
 ## Løsninger

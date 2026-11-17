@@ -8,7 +8,7 @@ alder: alle
 draft: "true"
 ---
 
-[[../oppgaver/svarene-er|Til oppgaven: Svarene er]].
+[[../undervisningsressurser/oppgaver/svarene-er|Til oppgaven: Svarene er]].
 ## Løsninger
 
 ## 5.-VGS.-Trinn

@@ -1,8 +1,7 @@
 ---
 title: Nytt notat
 tags:
-  - rekkefolge/200/900/100
-draft: true
+  - rekkefolge/300
 ---
 
-Skriv oppgaven eller notatet her. Endre tittel og rekkefølge-tagg før du sender en pull request.
+Skriv her.

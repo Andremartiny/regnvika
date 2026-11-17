@@ -8,7 +8,15 @@ created: 2023-09-11
 status: arbeidsnotat
 ---
 
-For å få flest mulig til å tenke må oppgavene legge til rette for tenking (selvstendig tenking). Hvordan ser slike oppgaver ut? Liljedahl beskriver tre typer oppgaver som han kaller *tenkeoppgaver*
+For å få flest mulig til å tenke må oppgavene legge til rette for tenking (selvstendig tenking). Hvordan ser slike oppgaver ut? 
+
+### Gi elevene noe å undersøke
+
+En tenkeoppgave gir elevene mulighet til å velge, prøve, begrunne og endre framgangsmåte. Du må derfor vurdere hva de kan komme i gang med, og hvilken matematikk arbeidet kan føre til.
+
+En oppgave som er ny og utfordrende for én elevgruppe, kan være en kjent rutine for en annen. Forkunnskapene er en del av oppgavevalget.
+
+Liljedahl beskriver tre typer oppgaver som han kaller *tenkeoppgaver*
 
 1. Grubleoppgaver
    ![[../vedlegg/gruble.svg]]
@@ -21,17 +29,22 @@ Disse oppgavene er typisk ikke koblet til kompetansemål (selv om de passer fint
 
 Videre peker Liljedahl på tre typer undervisningstyper
 
-1. Engasjerende tenkeoppgaver som ikke er knyttet til læreplanen
+> [!example]- Engasjerende tenkeoppgaver som ikke er knyttet til læreplanen
+> Dette er koblet til oppgavetypene over. Disse kan godt være koblet til læreplanen, men det er ikke et kjennetegn ved oppgavene.
 
-Dette er koblet til oppgavetypene over. Disse kan godt være koblet til læreplanen, men det er ikke et kjennetegn ved oppgavene.
+> [!example]- Strukturerte, læreplanbaserte oppgaver
+> Dette er oppgaver som baserer seg på læreplanen, typisk i noen kompetansemål. En viktig bit her er at elevene blir bedt om å gjøre noe de ikke har fått demonstrert hvordan de skal gjøre (de må altså tenke selv). Typisk kan dette realisere seg som oppgavestrenger.
 
-2. Strukturerte, læreplanbaserte oppgaver
+> [!example]- Tradisjonelle, læreplanbaserte oppgaver
+> Typisk: "Lærer demonstrerer" - "Nå prøver dere" - "Gjennomgang av eksempel på tavla"
 
-Dette er oppgaver som baserer seg på læreplanen, typisk i noen kompetansemål. En viktig bit her er at elevene blir bedt om å gjøre noe de ikke har fått demonstrert hvordan de skal gjøre (de må altså tenke selv). Typisk kan dette realisere seg som oppgavestrenger.
-
-3. Tradisjonelle, læreplanbaserte oppgaver
-
-Typisk: "Lærer demonstrerer" - "Nå prøver dere" - "Gjennomgang av eksempel på tavla"
+> [!tip]- Før du velger oppgave
+> Tenk gjennom
+> - Hva må elevene kunne for å gjøre et første forsøk?
+> - Hvilke framstillinger og begrunnelser er ser du etter?
+> - Hvilke hint kan åpne hjelpe studentene å `fortsette å tenke`?
+> - Hva kan du spørre om når en gruppe finner en løsning?
+> - Hvilken sammenheng vil du samle klassen om etterpå?
 
 ## Tiltak mot et tenkende klasserom
 
@@ -56,7 +69,7 @@ Oppgaver som er så engasjerende og interessante at man ikke klarer å la være 
 
 Under er oppgaven vi jobbet med på første samling
 
-- [[../oppgaver/svarene-er|Svarene er]]
+- [[../undervisningsressurser/oppgaver/svarene-er|Svarene er]]
 
 ### Korttriks
 
@@ -66,7 +79,7 @@ Under er oppgaven vi jobbet med på første samling
 
 Under er oppgaven vi jobbet med på første samling
 
-[[../oppgaver/Låneproblemet|Låneproblemet]]
+[[../undervisningsressurser/oppgaver/Investeringen|Investeringen]]
 
 Flere slike oppgaver finnes her 
 

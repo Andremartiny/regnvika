@@ -5,7 +5,7 @@ tags:
 draft: "true"
 ---
 
-[[../oppgaver/lyspaereproblemet|Til oppgaven: Lyspæreproblemet]].
+[[../undervisningsressurser/oppgaver/lyspaereproblemet|Til oppgaven: Lyspæreproblemet]].
 
 
 ## Spørsmål og løsninger
