@@ -16,16 +16,25 @@ En tenkeoppgave gir elevene mulighet til å velge, prøve, begrunne og endre fra
 
 En oppgave som er ny og utfordrende for én elevgruppe, kan være en kjent rutine for en annen. Forkunnskapene er en del av oppgavevalget.
 
-Liljedahl beskriver tre typer oppgaver som han kaller *tenkeoppgaver*
+Liljedahl beskriver tre typer oppgaver som han kaller *tenkeoppgaver* (FIXME ble litt usikker på om dette er det han faktisk kaller det)
 
-1. Grubleoppgaver
-   ![[../vedlegg/gruble.svg]]
-2. Korttriks
-   ![[../vedlegg/korttriks.svg|200]]
-3. Virkelighetsnære oppgaver
-   ![[../vedlegg/låneproblemer 1.svg|200]]
+> [!tip] Grubleoppgaver
+> ![[../vedlegg/gruble.svg]]
+> 
+Oppgaver som er så engasjerende og interessante at man ikke klarer å la være å tenke på de.
 
-Disse oppgavene er typisk ikke koblet til kompetansemål (selv om de passer fint med våre kjerneelementer). Dermed er disse gode oppgaver for å jobbe utforskende og problemløsende og for å introdusere og bygge opp et tenkende klasserom. 
+> [!tip] Korttriks
+> ![[../vedlegg/korttriks.svg|200]]
+> Korttriks som kan løses ved å bruke matematikk og matematisk tenking.
+> [Korttriks presentert av Liljedahl](https://www.peterliljedahl.com/teachers/card-tricks)
+
+> [!tip] Virkelighetsnære oppgaver
+> ![[../vedlegg/låneproblemer 1.svg|200]]
+> FIXMEVI MANGLER FORKALRING (Selvsagt?) F
+> For eksempel [[../undervisningsressurser/oppgaver/Investeringen|Investeringen]]
+> Flere slike oppgaver finnes her [Virkelighetsnære oppgaver](https://www.peterliljedahl.com/teachers/numeracy-tasks)
+   
+De tre oppgavetypene er ikke typisk koblet til kompetansemål (selv om de passer fint med våre kjerneelementer). Dermed er disse gode oppgaver for å jobbe utforskende og problemløsende og for å introdusere og bygge opp et tenkende klasserom. 
 
 Videre peker Liljedahl på tre typer undervisningstyper
 
@@ -46,41 +55,19 @@ Videre peker Liljedahl på tre typer undervisningstyper
 > - Hva kan du spørre om når en gruppe finner en løsning?
 > - Hvilken sammenheng vil du samle klassen om etterpå?
 
+
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
 
-- [ ] Start hver time (første 5 minutter) med en engasjerende tenkeoppgave.
+> [!info]- Makrotiltak
+> - [ ] Start hver time (første 5 minutter) med en engasjerende tenkeoppgave.
 
-### Mikrotiltak
 
-- [ ] De første 3-5 engasjerende tenkeoppgavene du bruker, er grubleoppgaver eller dreier som en generell matematisk problemløsning (type 1)
-- [ ] Bytt deretter til de strukturerte, lærerplanbaserte oppgaver som er knyttet til kompetansemålene (type 2)
-- [ ] Strukturer disse oppgavene slik at du
-    - [ ] Begynner med å stille et spørsmål om kjent stoff,
-    - [ ] deretter stiller et spørsmål som gir en fordypning i kjent stoff, og
-    - [ ] til slutt ber elevene om å jobbe med en oppgave uten å fortelle dem hvordan
+> [!info]- Mikrotiltak
+> - [ ] De første 3-5 engasjerende tenkeoppgavene du bruker, er grubleoppgaver eller dreier som en generell matematisk problemløsning (type 1)
+> - [ ] Bytt deretter til de strukturerte, lærerplanbaserte oppgaver som er knyttet til kompetansemålene (type 2)
+> - [ ] Strukturer disse oppgavene slik at du
+> - [ ] Begynner med å stille et spørsmål om kjent stoff,
+> - [ ] deretter stiller et spørsmål som gir en fordypning i kjent stoff, og
+> - [ ] til slutt ber elevene om å jobbe med en oppgave uten å fortelle dem hvordan
 
-## Tenkeoppgaver
-
-### Grubleoppgaver
-
-Oppgaver som er så engasjerende og interessante at man ikke klarer å la være å tenke på de.
-
-Under er oppgaven vi jobbet med på første samling
-
-- [[../undervisningsressurser/oppgaver/svarene-er|Svarene er]]
-
-### Korttriks
-
-[Korttriks presentert av Liljedahl](https://www.peterliljedahl.com/teachers/card-tricks)
-
-### Virkelighetsnære oppgaver
-
-Under er oppgaven vi jobbet med på første samling
-
-[[../undervisningsressurser/oppgaver/Investeringen|Investeringen]]
-
-Flere slike oppgaver finnes her 
-
-[Virkelighetsnære oppgaver](https://www.peterliljedahl.com/teachers/numeracy-tasks)

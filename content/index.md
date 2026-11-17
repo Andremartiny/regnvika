@@ -24,7 +24,7 @@ Løsningsoversikten er foreløpig et utkast. Aktiver lenken når den publiseres:
 
 ### Vil du hoppe rett i en undervisningstime?
 
-Hvis du rett og slett bare har lyst til å teste ut og gå for `learning by doing`-stilen kan du gå hit FIXME. Der finne et knippe konkrete forslag. Forslagene inkluderer hvordan du introduserer en time, hvordan du holder flyten i en time, samt hvordan du oppsummerer.
+Hvis du rett og slett bare har lyst til å teste ut og gå for `learning by doing`-stilen kan du gå hit [[undervisningsressurser/kom-i-gang/første-time|første time]]. Der finne et knippe konkrete forslag. Forslagene inkluderer hvordan du introduserer en time, hvordan du holder flyten i en time, samt hvordan du oppsummerer.
 
 Merk at det forventes at du har tilgang til vertikale tavler. 
 
