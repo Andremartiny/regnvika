@@ -55,13 +55,10 @@ Videre peker Liljedahl på tre typer undervisningstyper
 > - Hva kan du spørre om når en gruppe finner en løsning?
 > - Hvilken sammenheng vil du samle klassen om etterpå?
 
-
 ## Tiltak mot et tenkende klasserom
-
 
 > [!info]- Makrotiltak
 > - [ ] Start hver time (første 5 minutter) med en engasjerende tenkeoppgave.
-
 
 > [!info]- Mikrotiltak
 > - [ ] De første 3-5 engasjerende tenkeoppgavene du bruker, er grubleoppgaver eller dreier som en generell matematisk problemløsning (type 1)

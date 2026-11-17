@@ -107,8 +107,18 @@ plugins:
     enabled: true
     options:
       localGraph:
+        zoom: true
+        scale: 1.5
+        fontSize: 0.9
+        opacityScale: 3
+        focusOnHover: false
         showTags: false
       globalGraph:
+        zoom: true
+        scale: 1.5
+        fontSize: 0.9
+        opacityScale: 3
+        focusOnHover: false
         showTags: false
     layout:
       position: right
