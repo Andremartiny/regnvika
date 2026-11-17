@@ -1,7 +1,7 @@
 ---
 title: Svarene er
+order: "200/100/100"
 tags:
-  - rekkefolge/200/100/100
   - type/oppgave
   - matematikk/tall-og-regning
   - arbeidsmate/grubleoppgave

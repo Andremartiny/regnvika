@@ -1,7 +1,6 @@
 ---
 title: Første time
-tags:
-  - rekkefolge/100
+order: "100"
 ---
 
 Dette er et forslag til å prøve arbeidsmåten med [[../oppgaver/svarene-er|svarene-er]]. Oppgaven er hentet fra boka FIXMELENKEHER. Her er en mulig vei gjennom timen. Forslaget er utarbeidet med bakgrunn i 45 minutter som ramme for timen og må tilpasses elevgruppa.

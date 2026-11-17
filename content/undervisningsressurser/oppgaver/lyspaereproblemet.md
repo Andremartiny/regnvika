@@ -1,7 +1,6 @@
 ---
 title: Lyspæreproblemet
-tags:
-  - rekkefolge/200/100/500
+order: "200/100/500"
 draft: "true"
 ---
 

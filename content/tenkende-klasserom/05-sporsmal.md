@@ -1,7 +1,7 @@
 ---
 title: 5. Svare på spørsmål
+order: "100/600"
 tags:
-  - rekkefolge/100/600
   - type/fagnotat
   - btc/laererrollen
 created: 2023-09-11

@@ -1,7 +1,6 @@
 ---
 title: Landeveien
-tags:
-  - rekkefolge/200/400/300
+order: "200/400/300"
 relatert:
 draft: "true"
 ---

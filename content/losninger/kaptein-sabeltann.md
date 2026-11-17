@@ -1,7 +1,7 @@
 ---
 title: Kaptein Sabeltann og den magiske diamant – løsningsforslag
+order: "300/500"
 tags:
-  - rekkefolge/300/500
   - type/losning
   - matematikk/logikk-og-strategi
 draft: "true"

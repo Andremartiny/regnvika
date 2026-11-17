@@ -1,7 +1,6 @@
 ---
 title: Regnvika
-tags:
-  - rekkefolge/0
+order: "0"
 ---
 Hvordan kan flere elever komme i gang, prøve egne ideer og forklare hvordan de tenker?
 

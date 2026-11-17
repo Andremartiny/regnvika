@@ -1,7 +1,7 @@
 ---
 title: 1. Oppgaver
+order: "100/200"
 tags:
-  - rekkefolge/100/200
   - type/fagnotat
   - btc/oppgaver
 created: 2023-09-11

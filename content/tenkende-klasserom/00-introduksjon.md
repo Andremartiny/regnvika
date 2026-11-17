@@ -1,7 +1,7 @@
 ---
 title: Introduksjon
+order: "100/100"
 tags:
-  - rekkefolge/100/100
   - type/fagnotat
   - btc/grunnlag
 ---

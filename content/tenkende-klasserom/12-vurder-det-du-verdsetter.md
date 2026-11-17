@@ -1,7 +1,7 @@
 ---
 title: 12. Vurder det du verdsetter
+order: "100/1300"
 tags:
-  - rekkefolge/100/1300
   - type/fagnotat
   - btc/oppfolging
 created: 2026-11-13

@@ -1,7 +1,7 @@
 ---
 title: 10. Oppsummering
+order: "100/1100"
 tags:
-  - rekkefolge/100/1100
   - type/fagnotat
   - btc/oppfolging
 created: 2023-09-04

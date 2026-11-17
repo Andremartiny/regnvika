@@ -1,7 +1,6 @@
 ---
 title: Den uvanlige bakerens kaker
-tags:
-  - rekkefolge/200/100/200
+order: "200/100/200"
 draft: "true"
 ---
 

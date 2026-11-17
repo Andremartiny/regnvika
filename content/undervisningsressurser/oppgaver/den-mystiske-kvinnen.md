@@ -1,7 +1,6 @@
 ---
 title: Den mystiske kvinnen
-tags:
-  - rekkefolge/200/400/100
+order: "200/400/100"
 created: 2023-08-28
 status: arbeidsnotat
 relatert:

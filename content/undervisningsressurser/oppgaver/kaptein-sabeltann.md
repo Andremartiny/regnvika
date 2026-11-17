@@ -1,7 +1,6 @@
 ---
 title: Kaptein Sabeltann og den magiske diamant
-tags:
-  - rekkefolge/200/400/200
+order: "200/400/200"
 alder: alle
 created: 2023-08-29
 status: arbeidsnotat

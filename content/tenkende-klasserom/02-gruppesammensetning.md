@@ -1,7 +1,7 @@
 ---
 title: 2. Gruppesammensetning
+order: "100/300"
 tags:
-  - rekkefolge/100/300
   - type/fagnotat
   - btc/organisering
 created: 2023-09-04

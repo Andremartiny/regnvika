@@ -1,7 +1,7 @@
 ---
 title: 7. Sjekk din forståelse
+order: "100/800"
 tags:
-  - rekkefolge/100/800
   - type/fagnotat
   - btc/oppfolging
 created: 2026-11-13

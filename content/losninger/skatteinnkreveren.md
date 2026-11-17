@@ -1,7 +1,7 @@
 ---
 title: Skatteinnkreveren – løsningsforslag
+order: "300/200"
 tags:
-  - rekkefolge/300/200
   - type/losning
   - matematikk/tall-og-regning
 created: 2023-08-29

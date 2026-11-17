@@ -1,7 +1,6 @@
 ---
 title: 1001 kroner
-tags:
-  - rekkefolge/200/100/300
+order: "200/100/300"
 relatert:
 draft: "true"
 ---

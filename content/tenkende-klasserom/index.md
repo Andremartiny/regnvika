@@ -1,7 +1,7 @@
 ---
 title: Tenkende klasserom
+order: "100"
 tags:
-  - rekkefolge/100
   - type/oversikt
   - btc
 ---

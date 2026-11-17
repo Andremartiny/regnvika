@@ -1,7 +1,6 @@
 ---
 title: Lyspæreproblemet – løsningsforslag
-tags:
-  - rekkefolge/300/300
+order: "300/300"
 draft: "true"
 ---
 

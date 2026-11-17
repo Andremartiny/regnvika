@@ -1,7 +1,7 @@
 ---
 title: 8. Mobilisere kunnskap
+order: "100/900"
 tags:
-  - rekkefolge/100/900
   - type/fagnotat
   - btc/samarbeid
 created: 2023-09-11

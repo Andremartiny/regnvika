@@ -1,7 +1,7 @@
 ---
 title: 3. Viskbare vertikale tavler
+order: "100/400"
 tags:
-  - rekkefolge/100/400
   - type/fagnotat
   - btc/organisering
 created: 2023-09-11

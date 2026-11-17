@@ -1,7 +1,7 @@
 ---
 title: Løsningsforslag
+order: "300"
 tags:
-  - rekkefolge/300
   - type/oversikt
   - type/losning
 draft: "true"

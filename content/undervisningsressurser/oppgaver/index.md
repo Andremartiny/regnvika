@@ -1,7 +1,7 @@
 ---
 title: Oppgavebanken
+order: "200"
 tags:
-  - rekkefolge/200
   - type/oversikt
 ---
 

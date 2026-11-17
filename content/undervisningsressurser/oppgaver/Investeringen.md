@@ -1,7 +1,6 @@
 ---
 title: Investeringen
-tags:
-  - rekkefolge/200/100/100
+order: "200/100/100"
 alder: alle
 relatert:
 draft: "false"

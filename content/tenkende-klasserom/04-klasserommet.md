@@ -1,7 +1,7 @@
 ---
 title: 4. Klasserommet
+order: "100/500"
 tags:
-  - rekkefolge/100/500
   - type/fagnotat
   - btc/organisering
 created: 2023-09-11

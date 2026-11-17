@@ -1,7 +1,7 @@
 ---
 title: 9. Tips og utvidelser
+order: "100/1000"
 tags:
-  - rekkefolge/100/1000
   - type/fagnotat
   - btc/oppgaver
 created: 2023-09-04

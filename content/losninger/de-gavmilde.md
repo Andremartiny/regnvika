@@ -1,7 +1,6 @@
 ---
 draft: "true"
-tags:
-  - rekkefolge/200/300
+order: "200/300"
 title: De gavmilde - løsningsforslag
 ---
 

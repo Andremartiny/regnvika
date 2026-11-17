@@ -1,7 +1,7 @@
 ---
 title: 6. Hvordan gi oppgaver
+order: "100/700"
 tags:
-  - rekkefolge/100/700
   - type/fagnotat
   - btc/oppgaver
 created: 2023-09-04

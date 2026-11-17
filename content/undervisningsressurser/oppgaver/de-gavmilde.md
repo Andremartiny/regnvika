@@ -1,7 +1,6 @@
 ---
 title: De gavmilde
-tags:
-  - rekkefolge/200/200/100
+order: "200/200/100"
 draft: "true"
 ---
 

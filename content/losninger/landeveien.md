@@ -1,7 +1,6 @@
 ---
 title: Landeveien – løsningsforslag
-tags:
-  - rekkefolge/300/600
+order: "300/600"
 draft: "true"
 ---
 

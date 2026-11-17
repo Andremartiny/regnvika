@@ -1,7 +1,6 @@
 ---
 title: Skituren
-tags:
-  - rekkefolge/200/100/600
+order: "200/100/600"
 ---
 
 Philip går i 7. klasse og skal endelig på skitur med skolen. Hver person har etter beste evne prøvd å samle inn penger til turen. Nedenfor er en tabell som viser hvor mye hver av dem har samlet inn, og hva de har av individuelle utgifter til turen ut fra sitt behov for instruksjon eller utstyrsleie. Alle pengene som er samlet inn, skal brukes på utgifter til tuen, og alle skal være med

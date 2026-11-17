@@ -1,7 +1,7 @@
 ---
 title: Bankraneren
+order: "200/300/200"
 tags:
-  - rekkefolge/200/300/200
   - type/oppgave
   - matematikk/geometri
   - arbeidsmate/grubleoppgave

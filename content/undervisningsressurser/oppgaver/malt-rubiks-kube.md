@@ -1,7 +1,6 @@
 ---
 title: En malt Rubiks kube
-tags:
-  - rekkefolge/200/300/100
+order: "200/300/100"
 draft: "true"
 ---
 

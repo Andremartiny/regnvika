@@ -1,7 +1,7 @@
 ---
 title: Den mystiske kvinnen – løsningsforslag
+order: "300/400"
 tags:
-  - rekkefolge/300/400
   - type/losning
   - matematikk/logikk-og-strategi
 draft: "true"

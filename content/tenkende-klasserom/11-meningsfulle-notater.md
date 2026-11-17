@@ -1,7 +1,7 @@
 ---
 title: 11. Meningsfulle notater
+order: "100/1200"
 tags:
-  - rekkefolge/100/1200
   - type/fagnotat
   - btc/oppfolging
 created: 2026-11-13

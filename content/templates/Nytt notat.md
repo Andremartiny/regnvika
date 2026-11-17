@@ -1,7 +1,6 @@
 ---
 title: Nytt notat
-tags:
-  - rekkefolge/300
+order: "300"
 ---
 
 Skriv her.

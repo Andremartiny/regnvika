@@ -1,7 +1,6 @@
 ---
 title: Skatteinnkreveren
-tags:
-  - rekkefolge/200/100/400
+order: "200/100/400"
 created: 2023-08-29
 status: arbeidsnotat
 relatert:

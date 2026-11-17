@@ -1,7 +1,7 @@
 ---
 title: Svarene er – løsningsforslag
+order: "300/100"
 tags:
-  - rekkefolge/300/100
   - type/losning
   - matematikk/tall-og-regning
 alder: alle
