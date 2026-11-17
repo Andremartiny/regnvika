@@ -1,0 +1,17 @@
+---
+title: Bankraneren
+tags:
+  - rekkefolge/200/300/200
+  - type/oppgave
+  - matematikk/geometri
+  - arbeidsmate/grubleoppgave
+created: 2023-08-29
+status: arbeidsnotat
+relatert:
+  - "[[../index]]"
+draft: "true"
+---
+
+En sikkerhetsvakt jakter på en bankraner som ramler uti et kvadratisk svømmebasseng. Når vakten kommer bort til hjørnet av bassenget, har raneren svømt utover og befinner seg nøyaktig midt i bassenget. Vakten kan løpe raskere enn raneren kan svømme - men raneren kan løpe raskere enn vakten kan løpe. I hvilken retning må bankraneren svømme (i rett linje) for å øke sannsynligheten for å slippe unna?
+
+![[../vedlegg/Burglarandpolice.svg]]

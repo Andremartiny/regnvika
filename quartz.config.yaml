@@ -1,0 +1,184 @@
+# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
+configuration:
+  pageTitle: Regnvika
+  baseUrl: andremartiny.github.io/regnvika
+  publishAssets: referenced
+  pageTitleSuffix: ""
+  enableSPA: true
+  enablePopovers: true
+  prefetch: viewport
+  analytics: null
+  locale: nb-NO
+  ignorePatterns:
+    - private
+    - templates
+    - .obsidian
+  theme:
+    fontOrigin: local
+    cdnCaching: false
+    typography:
+      header: system-ui
+      body: system-ui
+      code: monospace
+    colors:
+      lightMode:
+        light: "#fcfcfb"
+        lightgray: "#e7e7e4"
+        gray: "#969691"
+        darkgray: "#454541"
+        dark: "#242422"
+        secondary: "#345a64"
+        tertiary: "#5b7770"
+        highlight: "#345a6410"
+        textHighlight: "#f5e49c80"
+      darkMode:
+        light: "#191a1b"
+        lightgray: "#333638"
+        gray: "#858b8d"
+        darkgray: "#d2d5d5"
+        dark: "#eeeeec"
+        secondary: "#99c1cb"
+        tertiary: "#a8c4b5"
+        highlight: "#99c1cb18"
+        textHighlight: "#b3aa0255"
+  links:
+    markdownLinkResolution: relative
+  contentIndex:
+    enableSiteMap: false
+    enableRSS: false
+
+plugins:
+  - source: "@quartz-community/syntax-highlighting"
+    enabled: true
+    options:
+      theme:
+        light: github-light
+        dark: github-dark
+      keepBackground: false
+    order: 20
+  - source: "@quartz-community/github-flavored-markdown"
+    enabled: true
+    order: 30
+  - source: "@quartz-community/obsidian-flavored-markdown"
+    enabled: true
+    options:
+      enableInHtmlEmbed: false
+      enableCheckbox: true
+    order: 40
+  - source: "@quartz-community/table-of-contents"
+    enabled: true
+    order: 50
+    options:
+      minEntries: 0
+    layout:
+      position: right
+      priority: 30
+      condition: has-toc
+  - source: "@quartz-community/description"
+    enabled: true
+    order: 70
+  - source: "@quartz-community/latex"
+    enabled: true
+    options:
+      renderEngine: katex
+    order: 80
+  - source: "@quartz-community/alias-redirects"
+    enabled: true
+  - source: "@quartz-community/favicon"
+    enabled: true
+  - source: "@quartz-community/content-page"
+    enabled: true
+  - source: "@quartz-community/folder-page"
+    enabled: true
+    options:
+      showFolderCount: false
+  - source: "@quartz-community/tag-page"
+    enabled: true
+  - source: "@quartz-community/explorer"
+    enabled: true
+    options:
+      title: Notater
+      folderClickBehavior: link
+      folderDefaultState: open
+    layout:
+      position: left
+      priority: 50
+  - source: "@quartz-community/graph"
+    enabled: true
+    options:
+      localGraph:
+        showTags: false
+      globalGraph:
+        showTags: false
+    layout:
+      position: right
+      priority: 10
+  - source: "@quartz-community/backlinks"
+    enabled: true
+    options:
+      hideWhenEmpty: true
+    layout:
+      position: right
+      priority: 50
+  - source: "@quartz-community/search"
+    enabled: true
+    layout:
+      position: left
+      priority: 20
+      group: toolbar
+      groupOptions:
+        grow: true
+  - source: "@quartz-community/article-title"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 10
+  - source: "@quartz-community/page-title"
+    enabled: true
+    layout:
+      position: left
+      priority: 10
+  - source: "@quartz-community/darkmode"
+    enabled: true
+    layout:
+      position: left
+      priority: 30
+      group: toolbar
+  - source: "@quartz-community/spacer"
+    enabled: true
+    layout:
+      position: left
+      priority: 25
+      display: mobile-only
+
+  # Ingen bunntekst, dato eller lesetid. Disse kan slås på igjen her.
+  - source: "@quartz-community/footer"
+    enabled: false
+  - source: "@quartz-community/content-meta"
+    enabled: false
+    options:
+      showReadingTime: false
+  - source: "@quartz-community/note-properties"
+    enabled: false
+  - source: "@quartz-community/og-image"
+    enabled: false
+
+layout:
+  groups:
+    toolbar:
+      priority: 35
+      direction: row
+      gap: 0.5rem
+  byPageType:
+    "404":
+      positions:
+        beforeBody: []
+        left: []
+        right: []
+    content: {}
+    folder:
+      positions:
+        right: []
+    tag:
+      positions:
+        right: []

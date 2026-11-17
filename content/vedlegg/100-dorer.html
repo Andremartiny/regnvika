@@ -1,0 +1,1375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>100 Doors</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1017;
+      --surface: #121b26;
+      --border: rgba(171, 197, 226, .105);
+      --text: #e5edf5;
+      --muted: #8394a7;
+      --dim: #586b80;
+      --glow: #ffd078;
+      --accent: #92d7ce;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-width: 290px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button, input {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:focus-visible,
+    input:focus-visible,
+    .bulb-grid:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .app {
+      max-width: 1130px;
+      margin: auto;
+      padding: 16px;
+    }
+
+    .surface {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      min-width: 0;
+    }
+
+    /* LIGHT DISPLAY */
+
+    .stage {
+      padding: 18px 21px 14px;
+    }
+
+    .small-status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      gap: 10px;
+    }
+
+    .small-status .right {
+      display: inline-flex;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .running-dot {
+      width: 6px;
+      height: 6px;
+      background: var(--accent);
+      display: inline-block;
+      border-radius: 50%;
+      box-shadow: 0 0 9px rgba(146,215,206,.45);
+    }
+
+    .running-dot.paused {
+      background: #607080;
+      box-shadow: none;
+    }
+
+    .running-dot.finished {
+      background: var(--glow);
+      box-shadow: 0 0 8px rgba(255,208,120,.5);
+    }
+
+    .bulb-grid {
+      display: grid;
+      grid-template-columns: repeat(20, minmax(0, 1fr));
+      gap: 5px 2px;
+      margin: 12px 0;
+      cursor: pointer;
+      user-select: none;
+      border-radius: 8px;
+    }
+
+    .door {
+      min-width: 0;
+      height: 53px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .bulb {
+      display: block;
+      position: relative;
+      height: 28px;
+      width: 23px;
+    }
+
+    .glass {
+      position: absolute;
+      top: 1px;
+      left: 2px;
+      width: 19px;
+      height: 20px;
+      border-radius: 52% 52% 44% 44%;
+      border: 1px solid #57697e;
+
+      background: radial-gradient(
+        circle at 32% 25%,
+        #4d6175,
+        #2b3b4e 74%
+      );
+
+      transition:
+        background 200ms ease,
+        box-shadow 200ms ease,
+        border-color 200ms ease;
+    }
+
+    .socket {
+      position: absolute;
+      width: 10px;
+      height: 7px;
+      left: 6.5px;
+      bottom: 0;
+
+      background: linear-gradient(
+        90deg,
+        #66778d,
+        #35465a 51%,
+        #66778d
+      );
+
+      border-radius: 1px 1px 3px 3px;
+    }
+
+    .socket::before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -1px;
+      width: 12px;
+      height: 2px;
+      border-radius: 1px;
+      background: #8190a2;
+    }
+
+    .number {
+      font-size: 9px;
+      line-height: 1;
+      color: #74859a;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* LIGHT ON */
+
+    .door.on .glass {
+      border-color: #ffeabd;
+
+      background: radial-gradient(
+        circle at 35% 25%,
+        #fff8df 0%,
+        #ffe7ad 36%,
+        #ffc96d 74%,
+        #e6a24b 100%
+      );
+
+      box-shadow:
+        0 0 13px rgba(255,193,96,.63),
+        0 0 27px rgba(255,193,96,.25);
+    }
+
+    .door.on .number {
+      color: #f2d5a0;
+    }
+
+    .door.changed .bulb {
+      animation: flick .31s cubic-bezier(.15,.85,.2,1);
+    }
+
+    .door.changed::before {
+      content: "";
+      position: absolute;
+      inset: 2px 6px 13px;
+      border: 1px solid rgba(255,214,142,.7);
+      border-radius: 11px;
+      pointer-events: none;
+      animation: ring .4s ease-out both;
+    }
+
+    /* PROGRESS */
+
+    .progress-track {
+      height: 2px;
+      background: #273340;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0;
+      background: var(--accent);
+      transition: width 110ms linear;
+    }
+
+    /* HISTORY */
+
+    .history {
+      margin-top: 12px;
+      padding: 14px 18px 15px;
+    }
+
+    .history-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .history-title {
+      margin: 0;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .history-right {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .history-count {
+      font-size: 10px;
+      color: var(--dim);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .nav {
+      display: flex;
+      gap: 4px;
+    }
+
+    .icon-btn {
+      display: grid;
+      place-items: center;
+      background: transparent;
+      color: #acbdcd;
+      width: 25px;
+      height: 25px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 14px;
+      transition: background .16s ease;
+    }
+
+    .icon-btn:hover:not(:disabled) {
+      background: #263345;
+    }
+
+    .icon-btn:disabled {
+      opacity: .3;
+      cursor: default;
+    }
+
+    .history-scroll {
+      overflow: visible;
+      max-height: none;
+      min-height: 51px;
+      margin-top: 10px;
+      scrollbar-width: thin;
+      scrollbar-color: #405165 transparent;
+      overscroll-behavior: contain;
+      border-radius: 5px;
+    }
+
+    .history-table {
+      width: max-content;
+      min-width: 100%;
+    }
+
+    .history-axis,
+    .history-row {
+      width: max-content;
+      min-height: 14px;
+      display: grid;
+      grid-template-columns: 44px repeat(100, 8px);
+      gap: 1px;
+      align-items: center;
+      padding: 1px 1px;
+    }
+
+    .history-axis {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      min-height: 22px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .axis-label {
+      font-size: 8px;
+      text-align: center;
+      color: #62788c;
+      white-space: nowrap;
+    }
+
+    .axis-spacer {
+      position: sticky;
+      left: 0;
+      z-index: 3;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      background: var(--surface);
+      font-size: 9px;
+      color: #7d8da1;
+    }
+
+    .history-row {
+      border-bottom: 1px solid rgba(171,197,226,.04);
+      animation: row-in .2s ease both;
+    }
+
+    .history-row:nth-child(odd) {
+      background: rgba(0,0,0,.045);
+    }
+
+    .history-row[hidden] {
+      display: none;
+    }
+
+    .pass-label {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      align-self: stretch;
+      display: flex;
+      align-items: center;
+      margin: -4px 0 -4px -3px;
+      padding-left: 7px;
+      color: #9aafc2;
+      font-size: 10px;
+      background: #182333;
+      border-right: 1px solid var(--border);
+    }
+
+    .history-row:nth-child(odd) .pass-label {
+      background: #162130;
+    }
+
+    .mini {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #34465a;
+      box-shadow: inset 0 0 0 1px rgba(148,170,194,.13);
+    }
+
+    .mini.on {
+      background: #fbd17b;
+      box-shadow: 0 0 5px rgba(255,202,108,.43);
+    }
+
+    .history-empty {
+      color: var(--dim);
+      padding: 8px 5px 5px;
+      font-size: 10px;
+    }
+
+    .result {
+      display: none;
+      padding: 11px 3px 0;
+      font-size: 11px;
+      line-height: 1.7;
+      color: #b1bdca;
+    }
+
+    .result.show {
+      display: block;
+    }
+
+    .result strong {
+      color: var(--glow);
+      font-weight: 650;
+    }
+
+    /* BOTTOM CONTROLS */
+
+    .toolbar {
+      margin-top: 12px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn {
+      border: 1px solid rgba(171,197,226,.12);
+      background: #1c2837;
+      border-radius: 7px;
+      color: #c7d4e2;
+      min-height: 34px;
+      padding: 7px 11px;
+      font-size: 11px;
+      font-weight: 570;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+
+      white-space: nowrap;
+
+      transition:
+        background .16s ease,
+        border-color .16s ease;
+    }
+
+    .btn:hover:not(:disabled) {
+      background: #2a3b50;
+      border-color: rgba(171,197,226,.25);
+    }
+
+    .btn:disabled {
+      opacity: .35;
+      cursor: default;
+    }
+
+    .btn.primary {
+      background: #91d6ce;
+      border-color: transparent;
+      color: #132630;
+      font-weight: 710;
+      min-width: 79px;
+    }
+
+    .btn.primary:hover:not(:disabled) {
+      background: #b5e6de;
+    }
+
+    .btn .glyph {
+      font-size: 13px;
+    }
+
+    .speed {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin-left: auto;
+    }
+
+    .speed label {
+      font-size: 10px;
+      color: var(--muted);
+    }
+
+    .speed input {
+      width: 103px;
+      height: 5px;
+      margin: 0;
+      cursor: pointer;
+      accent-color: #94d7ce;
+    }
+
+    .speed output {
+      font-size: 10px;
+      min-width: 31px;
+      text-align: right;
+      color: #b6c9d6;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ANIMATIONS */
+
+    @keyframes flick {
+      0%   { transform: scale(.75); }
+      55%  { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes ring {
+      from {
+        opacity: .85;
+        transform: scale(.75);
+      }
+
+      to {
+        opacity: 0;
+        transform: scale(1.3);
+      }
+    }
+
+    @keyframes row-in {
+      from {
+        opacity: .2;
+        transform: translateY(3px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 790px) {
+      .bulb-grid {
+        grid-template-columns: repeat(10, minmax(0,1fr));
+        gap: 3px 1px;
+      }
+
+      .stage {
+        padding: 15px 16px 13px;
+      }
+
+      .door {
+        height: 48px;
+      }
+    }
+
+    @media (max-width: 510px) {
+      .app {
+        padding: 9px;
+      }
+
+      .surface {
+        border-radius: 12px;
+      }
+
+      .stage {
+        padding: 13px 11px 10px;
+      }
+
+      .door {
+        height: 44px;
+      }
+
+      .bulb {
+        transform: scale(.87);
+        transform-origin: center bottom;
+      }
+
+      .number {
+        font-size: 8px;
+      }
+
+      .history {
+        padding: 11px;
+      }
+
+      .toolbar {
+        padding: 11px;
+        gap: 13px;
+      }
+
+      .buttons {
+        gap: 5px;
+      }
+
+      .btn {
+        padding: 7px 9px;
+      }
+
+      .speed {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .speed input {
+        flex: 1;
+        max-width: 290px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .001ms !important;
+        transition-duration: .001ms !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <main class="app">
+
+    <!-- LIGHTS -->
+
+    <section class="surface stage">
+
+      <div class="small-status">
+
+        <span id="pass-label">1 / 100</span>
+
+        <span class="right">
+          <span id="lit-count">0 on</span>
+          <span id="running-dot"
+                class="running-dot"
+                title="Running"></span>
+        </span>
+
+      </div>
+
+      <div
+        class="bulb-grid"
+        id="bulb-grid"
+        title="Click to play or pause"
+        tabindex="0">
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+      </div>
+
+    </section>
+
+
+    <!-- HISTORY -->
+
+    <section class="surface history">
+
+      <div class="history-top">
+
+        <h2 class="history-title">Historikk</h2>
+
+        <div class="history-right">
+
+          <span class="history-count"
+                id="history-count">0 / 0</span>
+
+          <div class="nav">
+
+            <button id="history-prev"
+                    class="icon-btn"
+                    title="Hide one row"
+                    disabled>‹</button>
+
+            <button id="history-next"
+                    class="icon-btn"
+                    title="Show one row"
+                    disabled>›</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="history-scroll" id="history-scroll">
+
+        <div class="history-table">
+
+          <div class="history-axis" id="history-axis">
+            <span class="axis-spacer">×</span>
+          </div>
+
+          <div id="history-rows"></div>
+
+          <div class="history-empty" id="history-empty">
+            —
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="result" id="result">
+        <strong>10 lights on</strong>
+        · 1, 4, 9, 16, 25, 36, 49, 64, 81, 100
+      </div>
+
+    </section>
+
+
+    <!-- PLAYBACK CONTROLS -->
+
+    <nav class="surface toolbar">
+
+      <div class="buttons">
+
+        <button class="btn primary"
+                id="play-btn"
+                title="Play / pause (Space)">
+
+          <span class="glyph" id="play-icon">Ⅱ</span>
+          <span id="play-text">Pause</span>
+
+        </button>
+
+        <button class="btn" id="step-btn">
+          <span class="glyph">›</span>
+          Ta ett steg
+        </button>
+
+        <button class="btn" id="pass-btn">
+          <span class="glyph">»</span>
+          Neste runde
+        </button>
+
+        <button class="btn" id="finish-btn">
+          Avslutt
+        </button>
+
+        <button class="btn" id="reset-btn">
+          <span class="glyph">↺</span>
+          Reset
+        </button>
+
+      </div>
+
+      <div class="speed">
+
+        <label for="speed-slider">Fart</label>
+
+        <input
+          id="speed-slider"
+          type="range"
+          min="1"
+          max="60"
+          step="1"
+          value="12">
+
+        <output id="speed-label">60/s</output>
+
+      </div>
+
+    </nav>
+
+  </main>
+
+
+  <script>
+
+    (() => {
+      "use strict";
+
+      // CONFIGURATION
+
+      const COUNT = 100;
+
+      const TOTAL_TOGGLES = 482;
+
+      const $ = id => document.getElementById(id);
+
+
+      // ELEMENTS
+
+      const el = {
+        board: $("bulb-grid"),
+        passLabel: $("pass-label"),
+        litCount: $("lit-count"),
+        dot: $("running-dot"),
+        fill: $("progress-fill"),
+
+        historyAxis: $("history-axis"),
+        historyRows: $("history-rows"),
+        historyEmpty: $("history-empty"),
+        historyCount: $("history-count"),
+        historyPrev: $("history-prev"),
+        historyNext: $("history-next"),
+        historyScroll: $("history-scroll"),
+
+        result: $("result"),
+
+        play: $("play-btn"),
+        playIcon: $("play-icon"),
+        playText: $("play-text"),
+        step: $("step-btn"),
+        nextPass: $("pass-btn"),
+        finish: $("finish-btn"),
+        reset: $("reset-btn"),
+
+        speed: $("speed-slider"),
+        speedLabel: $("speed-label")
+      };
+
+
+      // CREATE LIGHT BULBS
+
+      const doors = [];
+
+      for (let i = 0; i < COUNT; i++) {
+
+        const door = document.createElement("div");
+
+        door.className = "door";
+
+        door.innerHTML = `
+          <span class="bulb">
+            <span class="glass"></span>
+            <span class="socket"></span>
+          </span>
+          <span class="number"></span>
+        `;
+
+        door.querySelector(".number").textContent = i + 1;
+
+        door.title = `Light ${i + 1}: off`;
+
+        el.board.appendChild(door);
+
+        doors.push(door);
+      }
+
+
+      // CREATE HISTORY AXIS
+
+      for (let i = 1; i <= COUNT; i++) {
+
+        const tick = document.createElement("span");
+
+        tick.className = "axis-label";
+
+        tick.textContent =
+          i === 1 || i % 10 === 0 ? i : "";
+
+        el.historyAxis.appendChild(tick);
+      }
+
+
+      // SIMULATION STATE
+
+      let lights;
+      let history;
+      let visibleRows;
+
+      let factor;
+      let scalar;
+
+      let toggles;
+      let onCount;
+      let lastChanged;
+
+      let playing;
+      let finished;
+
+      let previousFrame = null;
+      let timeCredit = 0;
+
+
+      // UPDATE ONE LIGHT
+
+      function paintDoor(index, flash = false) {
+
+        const door = doors[index];
+        const isOn = lights[index];
+
+        door.classList.toggle("on", isOn);
+
+        door.title =
+          `Light ${index + 1}: ${isOn ? "on" : "off"}`;
+
+        door.classList.remove("changed");
+
+        if (flash) {
+          void door.offsetWidth;
+          door.classList.add("changed");
+        }
+      }
+
+
+      // UPDATE INTERFACE
+
+      function updateUI() {
+
+        el.passLabel.textContent =
+          finished ? "100 / 100" : `${factor} / 100`;
+
+        el.litCount.textContent = `${onCount} on`;
+
+        el.dot.className =
+          `running-dot${
+            finished ? " ferdig" :
+            !playing ? " satt på pause" : ""
+          }`;
+
+        el.fill.style.width =
+          `${100 * toggles / TOTAL_TOGGLES}%`;
+
+        el.playIcon.textContent =
+          playing && !finished ? "Ⅱ" : "▶";
+
+        el.playText.textContent =
+          playing && !finished ? "Pause" : "Fortsett";
+
+        for (const button of [
+          el.play,
+          el.step,
+          el.nextPass,
+          el.finish
+        ]) {
+          button.disabled = finished;
+        }
+
+        el.result.classList.toggle("show", finished);
+      }
+
+
+      // UPDATE HISTORY NAVIGATION
+
+      function updateHistoryNav() {
+
+        el.historyCount.textContent =
+          `${visibleRows} / ${history.length}`;
+
+        el.historyPrev.disabled = visibleRows === 0;
+
+        el.historyNext.disabled =
+          visibleRows === history.length;
+
+        el.historyEmpty.hidden = history.length > 0;
+      }
+
+
+      // ADD HISTORY ROW
+
+      function appendHistoryRow(state, pass) {
+
+        const row = document.createElement("div");
+
+        row.className = "history-row";
+
+        row.hidden = pass > visibleRows;
+
+        const label = document.createElement("span");
+
+        label.className = "pass-label";
+        label.textContent = pass;
+
+        row.appendChild(label);
+
+        const fragment = document.createDocumentFragment();
+
+        for (let i = 0; i < COUNT; i++) {
+
+          const dot = document.createElement("span");
+
+          dot.className = state[i] ? "mini on" : "mini";
+
+          dot.title =
+            `Pass ${pass}, light ${i + 1}: ${
+              state[i] ? "on" : "off"
+            }`;
+
+          fragment.appendChild(dot);
+        }
+
+        row.appendChild(fragment);
+
+        el.historyRows.appendChild(row);
+      }
+
+
+      // MAIN ALGORITHM
+      // Pass k toggles lights k, 2k, 3k, ...
+
+      function advance(silent = false) {
+
+        if (finished) return;
+
+        const index = factor * scalar - 1;
+
+        lights[index] = !lights[index];
+
+        onCount += lights[index] ? 1 : -1;
+
+        toggles++;
+
+        if (!silent) {
+
+          if (
+            lastChanged !== -1 &&
+            lastChanged !== index
+          ) {
+            doors[lastChanged].classList.remove("changed");
+          }
+
+          paintDoor(index, true);
+        }
+
+        lastChanged = index;
+
+
+        // END OF CURRENT PASS
+
+        if ((scalar + 1) * factor > COUNT) {
+
+          const followNewest =
+            visibleRows === history.length;
+
+          history.push(lights.slice());
+
+          if (followNewest) {
+            visibleRows++;
+          }
+
+          if (!silent) {
+
+            appendHistoryRow(
+              history[history.length - 1],
+              factor
+            );
+
+            updateHistoryNav();
+          }
+
+
+          // FINISHED ALL 100 PASSES
+
+          if (factor === COUNT) {
+
+            finished = true;
+            playing = false;
+
+          } else {
+
+            factor++;
+            scalar = 1;
+
+          }
+
+        } else {
+
+          scalar++;
+
+        }
+
+        if (!silent) {
+          updateUI();
+        }
+      }
+
+
+      // REPAINT EVERYTHING
+
+      function repaint() {
+
+        for (let i = 0; i < COUNT; i++) {
+          paintDoor(i);
+        }
+
+        el.historyRows.replaceChildren();
+
+        for (let i = 0; i < history.length; i++) {
+
+          appendHistoryRow(
+            history[i],
+            i + 1
+          );
+
+        }
+
+        updateHistoryNav();
+        updateUI();
+      }
+
+
+      // PLAY / PAUSE
+
+      function setPlaying(value) {
+
+        if (finished) return;
+
+        playing = value;
+
+        previousFrame = null;
+        timeCredit = 0;
+
+        updateUI();
+      }
+
+
+      // RESET
+
+      function reset() {
+
+        lights = Array(COUNT).fill(false);
+
+        history = [];
+        visibleRows = 0;
+
+        factor = 1;
+        scalar = 1;
+
+        toggles = 0;
+        onCount = 0;
+        lastChanged = -1;
+
+        playing = false;
+        finished = false;
+
+        previousFrame = null;
+        timeCredit = 0;
+
+        repaint();
+
+        el.historyScroll.scrollTop = 0;
+        el.historyScroll.scrollLeft = 0;
+      }
+
+
+      // SINGLE STEP
+
+      function step() {
+
+        if (!finished) {
+
+          setPlaying(false);
+
+          advance();
+
+        }
+      }
+
+
+      // COMPLETE CURRENT PASS
+
+      function nextPass() {
+
+        if (finished) return;
+
+        setPlaying(false);
+
+        const completedBefore = history.length;
+
+        while (
+          !finished &&
+          history.length === completedBefore
+        ) {
+
+          advance(true);
+
+        }
+
+        repaint();
+      }
+
+
+      // COMPLETE SIMULATION
+
+      function finishAll() {
+
+        if (finished) return;
+
+        setPlaying(false);
+
+        while (!finished) {
+          advance(true);
+        }
+
+        repaint();
+      }
+
+
+      // SHOW / HIDE HISTORY ROWS
+
+      function changeVisibleRows(direction) {
+
+        const next = Math.min(
+          history.length,
+          Math.max(0, visibleRows + direction)
+        );
+
+        if (next === visibleRows) return;
+
+        visibleRows = next;
+
+        Array.from(el.historyRows.children)
+          .forEach((row, i) => {
+
+            row.hidden = i >= visibleRows;
+
+          });
+
+        updateHistoryNav();
+      }
+
+
+      // ANIMATION LOOP
+
+      function frame(timestamp) {
+
+        if (previousFrame === null) {
+          previousFrame = timestamp;
+        }
+
+        const dt = Math.min(
+          timestamp - previousFrame,
+          200
+        );
+
+        previousFrame = timestamp;
+
+        if (playing && !finished) {
+
+          timeCredit +=
+            dt * Number(el.speed.value) / 1000;
+
+          const steps = Math.min(
+            Math.floor(timeCredit),
+            120
+          );
+
+          timeCredit -= steps;
+
+          for (
+            let i = 0;
+            i < steps && !finished;
+            i++
+          ) {
+
+            advance();
+
+          }
+        }
+
+        requestAnimationFrame(frame);
+      }
+
+
+      // INITIALIZE
+
+      reset();
+
+      setPlaying(true);
+
+      requestAnimationFrame(frame);
+
+
+      // BUTTON EVENTS
+
+      el.play.addEventListener("click", () => {
+        setPlaying(!playing);
+      });
+
+      el.step.addEventListener("click", step);
+
+      el.nextPass.addEventListener("click", nextPass);
+
+      el.finish.addEventListener("click", finishAll);
+
+      el.reset.addEventListener("click", reset);
+
+
+      // HISTORY BUTTONS
+
+      el.historyPrev.addEventListener("click", () => {
+        changeVisibleRows(-1);
+      });
+
+      el.historyNext.addEventListener("click", () => {
+        changeVisibleRows(1);
+      });
+
+
+      // SPEED SLIDER
+
+      el.speed.addEventListener("input", () => {
+
+        el.speedLabel.textContent =
+          `${el.speed.value}/s`;
+
+      });
+
+
+      // CLICK LIGHTS TO PAUSE
+
+      el.board.addEventListener("click", () => {
+        setPlaying(!playing);
+      });
+
+
+      // KEYBOARD CONTROLS
+
+      document.addEventListener("keydown", event => {
+
+        if (
+          event.altKey ||
+          event.ctrlKey ||
+          event.metaKey ||
+          /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)
+        ) {
+          return;
+        }
+
+        const key = event.key.toLowerCase();
+
+        if (event.code === "Space") {
+
+          event.preventDefault();
+          setPlaying(!playing);
+
+        } else if (key === "n") {
+
+          event.preventDefault();
+          step();
+
+        } else if (key === "p") {
+
+          event.preventDefault();
+          nextPass();
+
+        } else if (key === "r") {
+
+          event.preventDefault();
+          reset();
+
+        } else if (event.key === "ArrowLeft") {
+
+          event.preventDefault();
+          changeVisibleRows(-1);
+
+        } else if (event.key === "ArrowRight") {
+
+          event.preventDefault();
+          changeVisibleRows(1);
+
+        }
+
+      });
+
+    })();
+
+  </script>
+
+</body>
+</html>

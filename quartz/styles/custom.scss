@@ -1,0 +1,41 @@
+@use "./variables.scss" as *;
+
+// A quiet reading surface; fonts come from the user's own device.
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+article {
+  line-height: 1.75;
+}
+
+// Quartz's frame adds a rule and footer area even when no footer is configured.
+.center > article + hr,
+.center > .popover-hint + hr,
+.page-footer:empty {
+  display: none;
+}
+
+// Tags remain in the notes for sorting and indexing, but never occupy layout space.
+.tags,
+.tag-link {
+  display: none !important;
+}
+
+.page-listing .meta {
+  display: none;
+}
+
+// The default listing reserves a date column. Let titles use that space instead.
+.page-listing li.section-li > .section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.page-listing .desc {
+  flex: 1;
+  min-width: 0;
+}
+

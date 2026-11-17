@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mynter på bordet</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    background: #151414;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  /* WOODEN TABLE */
+
+  .table {
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    min-height: 280px;
+    aspect-ratio: 2.5 / 1;
+    max-height: 450px;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid #634734;
+
+    background:
+      radial-gradient(
+        ellipse at 48% 37%,
+        #a77c5030,
+        transparent 63%
+      ),
+      repeating-linear-gradient(
+        94deg,
+        transparent 0 19px,
+        #f0c28b07 21px 23px,
+        transparent 26px 61px,
+        #140d0a22 62px 65px
+      ),
+      linear-gradient(
+        165deg,
+        #654731,
+        #39281e 47%,
+        #211916
+      );
+
+    box-shadow:
+      inset 0 0 85px #100b0b9c,
+      inset 0 1px 1px #ffffff15;
+  }
+
+  .table::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background: radial-gradient(
+      ellipse at 32% 12%,
+      #fff5d81c,
+      transparent 48%
+    );
+
+    mix-blend-mode: screen;
+  }
+
+  .table::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: inherit;
+    box-shadow: inset 0 0 55px #100c0b75;
+  }
+
+  /* COIN ARRANGEMENT */
+
+  .coins {
+    position: absolute;
+    inset: 0 4%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+
+    transition:
+      opacity .55s ease,
+      transform .55s ease;
+  }
+
+  .table.fading .coins {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  .coin-place {
+    position: relative;
+    width: clamp(47px, 11vw, 116px);
+    aspect-ratio: 1;
+    flex: 0 1 116px;
+    perspective: 650px;
+
+    transform:
+      translateY(var(--dy))
+      rotate(var(--tilt));
+  }
+
+  /* CASUAL PLACEMENT ON THE TABLE */
+
+  .coin-place:nth-child(1) {
+    --dy: 15px;
+    --tilt: -14deg;
+  }
+
+  .coin-place:nth-child(2) {
+    --dy: -19px;
+    --tilt: 12deg;
+  }
+
+  .coin-place:nth-child(3) {
+    --dy: 23px;
+    --tilt: -7deg;
+  }
+
+  .coin-place:nth-child(4) {
+    --dy: -9px;
+    --tilt: 17deg;
+  }
+
+  .coin-place:nth-child(5) {
+    --dy: 15px;
+    --tilt: -12deg;
+  }
+
+  /* SOFT SHADOWS UNDER COINS */
+
+  .coin-place::before {
+    content: "";
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    top: 12%;
+    bottom: -8%;
+
+    border-radius: 50%;
+    background: #080706b8;
+    filter: blur(12px);
+
+    transform:
+      translate(9px, 10px)
+      scaleY(.77);
+  }
+
+  /* 3D FLIPPING */
+
+  .turner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+
+    transition: transform 680ms
+      cubic-bezier(.23, .7, .25, 1);
+
+    filter: drop-shadow(
+      3px 5px 2px #100e0d70
+    );
+  }
+
+  .turner.flipping {
+    transform:
+      rotateY(180deg)
+      translateY(-7px);
+  }
+
+  .turner.instant {
+    transition: none !important;
+  }
+
+  /* COIN SURFACE */
+
+  .face {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    border: 3px solid var(--rim);
+
+    background:
+      radial-gradient(
+        circle at 28% 20%,
+        #ffffff9a,
+        transparent 31%
+      ),
+      repeating-conic-gradient(
+        from 1deg,
+        #ffffff09 0deg 2deg,
+        transparent 2deg 6deg
+      ),
+      radial-gradient(
+        circle at 32% 24%,
+        var(--shine),
+        var(--middle) 56%,
+        var(--shade) 100%
+      );
+
+    box-shadow:
+      inset 0 0 0 2px #ffffff50,
+      inset 0 0 0 6px #1a141522,
+      inset -7px -9px 16px #00000044,
+      inset 6px 7px 12px #ffffff30,
+      0 2px 0 var(--shade);
+
+    color: var(--ink);
+
+    text-shadow:
+      0 1px 1px #ffffff50,
+      0 -1px 1px #00000040;
+  }
+
+  /* EMBOSSED INNER RING */
+
+  .face::before {
+    content: "";
+    position: absolute;
+    inset: 10%;
+    border-radius: 50%;
+    border: 1px solid #ffffff73;
+
+    box-shadow:
+      0 1px 1px #00000040,
+      inset 0 0 0 1px #0000002e;
+  }
+
+  .face.back {
+    transform: rotateY(180deg);
+  }
+
+  /* METAL COLORS */
+
+  .face.v1 {
+    --rim: #7b8583;
+    --shine: #e9efeb;
+    --middle: #afb9b7;
+    --shade: #677571;
+    --ink: #495450;
+  }
+
+  .face.v5 {
+    --rim: #6d8582;
+    --shine: #e4f4ec;
+    --middle: #abc9bd;
+    --shade: #587b72;
+    --ink: #386057;
+  }
+
+  .face.v10 {
+    --rim: #9a713c;
+    --shine: #fff2c6;
+    --middle: #ddb770;
+    --shade: #94672e;
+    --ink: #81551f;
+  }
+
+  .face.v20 {
+    --rim: #986031;
+    --shine: #ffe5ac;
+    --middle: #dca15b;
+    --shade: #955327;
+    --ink: #80451c;
+  }
+
+  /* COIN ENGRAVING */
+
+  .value {
+    position: relative;
+    z-index: 1;
+
+    font-size: clamp(21px, 4.5vw, 46px);
+    font-weight: bold;
+    line-height: .95;
+    letter-spacing: -.045em;
+  }
+
+  .unit {
+    position: relative;
+    z-index: 1;
+
+    font: 600 clamp(7px, 1vw, 11px)/1.6
+      system-ui, sans-serif;
+
+    letter-spacing: .22em;
+    margin-left: .22em;
+    opacity: .85;
+  }
+
+  /* MINIMAL PLAYBACK CONTROLS */
+
+  .controls {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    bottom: 15px;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 8px;
+  }
+
+  button {
+    display: grid;
+    place-items: center;
+
+    width: 34px;
+    height: 34px;
+
+    border: 1px solid #ffffff2d;
+    border-radius: 50%;
+
+    background: #1b1716a6;
+    backdrop-filter: blur(8px);
+
+    color: #f2dfc6;
+    font: 18px/1 system-ui, sans-serif;
+
+    cursor: pointer;
+
+    transition:
+      background .2s,
+      transform .2s;
+  }
+
+  button:hover {
+    background: #32251ecc;
+    transform: translateY(-2px);
+  }
+
+  button:focus-visible {
+    outline: 2px solid #e7c48a;
+    outline-offset: 3px;
+  }
+
+  /* MOBILE */
+
+  @media (max-width: 520px) {
+    .table {
+      min-height: 230px;
+      aspect-ratio: 1.65;
+      border-radius: 13px;
+    }
+
+    .coins {
+      inset-inline: 3%;
+    }
+
+    .coin-place {
+      width: clamp(43px, 16vw, 73px);
+    }
+
+    .face {
+      border-width: 2px;
+    }
+
+    .controls {
+      bottom: 11px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .turner,
+    .coins {
+      transition-duration: .01ms;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<main
+  class="table"
+  id="table"
+  aria-label="Fem mynter som byttes i tre runder">
+
+  <div class="coins" id="coins"></div>
+
+  <div class="controls">
+    <button
+      id="play"
+      aria-label="Pause"
+      title="Spill av / pause">Ⅱ</button>
+
+    <button
+      id="restart"
+      aria-label="Start på nytt"
+      title="Start på nytt">↻</button>
+  </div>
+
+</main>
+
+<script>
+(() => {
+  // Five representative coins from the
+  // original row of 1001 coins.
+
+  const positions = [2, 3, 4, 6, 12];
+
+  const passes = [
+    { every: 2, value: 5 },
+    { every: 3, value: 10 },
+    { every: 4, value: 20 }
+  ];
+
+  const table = document.getElementById('table');
+  const holder = document.getElementById('coins');
+  const playButton = document.getElementById('play');
+
+  const coins = [];
+
+  let paused = false;
+  let runId = 0;
+
+  // Set the appearance of one side of a coin.
+
+  function setFace(element, value) {
+    element.className =
+      'face ' +
+      (element.classList.contains('back')
+        ? 'back '
+        : '') +
+      'v' + value;
+
+    element.innerHTML =
+      '<span class="value">' +
+      value +
+      '</span><span class="unit">KR</span>';
+  }
+
+  // Create five coins.
+
+  for (const position of positions) {
+    const place = document.createElement('div');
+
+    place.className = 'coin-place';
+    place.title = 'Mynt nummer ' + position;
+
+    place.innerHTML = `
+      <div class="turner">
+        <div class="face front v1"></div>
+        <div class="face back v1"></div>
+      </div>
+    `;
+
+    const turner = place.querySelector('.turner');
+    const front = place.querySelector('.front');
+    const back = place.querySelector('.back');
+
+    setFace(front, 1);
+    setFace(back, 1);
+
+    holder.appendChild(place);
+
+    coins.push({
+      position,
+      turner,
+      front,
+      back
+    });
+  }
+
+  const sleep = ms =>
+    new Promise(resolve => setTimeout(resolve, ms));
+
+  // Pausable timer.
+
+  async function wait(ms, token) {
+    let elapsed = 0;
+
+    while (elapsed < ms) {
+      if (token !== runId) return false;
+
+      if (paused) {
+        await sleep(50);
+        continue;
+      }
+
+      const part = Math.min(50, ms - elapsed);
+
+      await sleep(part);
+      elapsed += part;
+    }
+
+    return token === runId;
+  }
+
+  // Animate one coin flipping to a new value.
+
+  async function flip(coin, value, token) {
+    setFace(coin.back, value);
+
+    coin.turner.classList.add('flipping');
+
+    if (!await wait(720, token)) {
+      return false;
+    }
+
+    // Restore the front-facing side invisibly
+    // after the full flip.
+
+    setFace(coin.front, value);
+
+    coin.turner.classList.add('instant');
+    coin.turner.classList.remove('flipping');
+
+    void coin.turner.offsetWidth;
+
+    coin.turner.classList.remove('instant');
+
+    return true;
+  }
+
+  // Restore all five coins to 1 kr.
+
+  function resetCoins() {
+    for (const coin of coins) {
+      coin.turner.classList.add('instant');
+      coin.turner.classList.remove('flipping');
+
+      setFace(coin.front, 1);
+      setFace(coin.back, 1);
+
+      void coin.turner.offsetWidth;
+
+      coin.turner.classList.remove('instant');
+    }
+  }
+
+  // Run the three passes.
+  // The sequence repeats automatically.
+
+  async function animate(token) {
+    while (token === runId) {
+      for (const pass of passes) {
+        if (!await wait(600, token)) return;
+
+        for (const coin of coins) {
+          if (coin.position % pass.every !== 0) {
+            continue;
+          }
+
+          if (!await flip(coin, pass.value, token)) {
+            return;
+          }
+
+          if (!await wait(160, token)) {
+            return;
+          }
+        }
+      }
+
+      // Hold the final arrangement.
+
+      if (!await wait(1800, token)) return;
+
+      // Fade out and restore the original coins.
+
+      table.classList.add('fading');
+
+      if (!await wait(570, token)) return;
+
+      resetCoins();
+
+      table.classList.remove('fading');
+
+      if (!await wait(500, token)) return;
+    }
+  }
+
+  // Play / pause.
+
+  function updatePlayButton() {
+    playButton.textContent = paused ? '▶' : 'Ⅱ';
+
+    playButton.setAttribute(
+      'aria-label',
+      paused ? 'Spill av' : 'Pause'
+    );
+  }
+
+  playButton.addEventListener('click', () => {
+    paused = !paused;
+    updatePlayButton();
+  });
+
+  // Restart the entire animation.
+
+  document.getElementById('restart')
+    .addEventListener('click', () => {
+      runId++;
+      paused = false;
+
+      table.classList.remove('fading');
+
+      resetCoins();
+      updatePlayButton();
+
+      animate(runId);
+    });
+
+  // Start automatically.
+
+  animate(runId);
+
+})();
+</script>
+
+</body>
+</html>
