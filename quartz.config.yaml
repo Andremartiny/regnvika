@@ -2,7 +2,7 @@
 configuration:
   pageTitle: Regnvika
   baseUrl: andremartiny.github.io/regnvika
-  publishAssets: referenced
+  publishAssets: all
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true

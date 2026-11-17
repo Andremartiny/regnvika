@@ -2,10 +2,6 @@
 title: Den uvanlige bakerens kaker
 tags:
   - rekkefolge/200/100/200
-  - type/oppgave
-  - matematikk/tall-og-regning
-  - arbeidsmate/grubleoppgave
-  - arbeidsmate/oppgavestreng
 draft: "true"
 ---
 

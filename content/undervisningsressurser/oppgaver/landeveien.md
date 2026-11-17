@@ -3,7 +3,6 @@ title: Landeveien
 tags:
   - rekkefolge/200/400/300
 relatert:
-  - "[[../../index]]"
 draft: "true"
 ---
 
@@ -11,7 +10,6 @@ En landevei er 27 km lang og strekker seg hele veien rundt en innsjø. Den forbi
 
 > Hvordan er hyttene fordelt langs veien? 
 > Finn en annen måte å fordele dem på.
-
 
 ## Løsningsforslag
 

@@ -53,7 +53,7 @@ Du har ansvar for oppgaven, deltakelsen og den matematiske retningen. Underveis 
 Det kan være uvant både å undersøke uten en ferdig framgangsmåte og å følge opp flere ulike ideer. Begynn med et forberedt opplegg, og bruk det du observerer til å planlegge neste utprøving.
 
 > [!tip]- Prøve selv?
-> I [[../undervisningsressurser/kom-i-gang/første time|prøv en første time]] finner du et forslag til oppgaven [[../undervisningsressurser/oppgaver/svarene-er|svarene-er]]. Test det ut, og etter timen kan du undersøke
+> I [[../undervisningsressurser/kom-i-gang/første-time|prøv en første time]] finner du et forslag til oppgaven [[../undervisningsressurser/oppgaver/svarene-er|svarene-er]]. Test det ut, og etter timen kan du undersøke
 > - Hvem kom i gang, og hvem trengte mer støtte?
 > - Hvilke spørsmål fikk elevene til å prøve videre?
 > - Hva kunne hver enkelt forklare etter oppsummeringen?

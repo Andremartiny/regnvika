@@ -2,13 +2,9 @@
 title: Skatteinnkreveren
 tags:
   - rekkefolge/200/100/400
-  - type/oppgave
-  - matematikk/tall-og-regning
-  - arbeidsmate/grubleoppgave
 created: 2023-08-29
 status: arbeidsnotat
 relatert:
-  - "[[../../index]]"
 ---
 
 > Jeg har tolv konvolutter som er nummerert fra 1 ti 12. Hver konvolutt inneholder det antall kroner som svarer til tallet utenpå den. Vi begynner med at dere velger én av konvoluttene og får beholde pengene i den.  
@@ -24,7 +20,8 @@ relatert:
 
 %%
 Løsningsforslaget er foreløpig et utkast. Fjern kommentaren når det publiseres.
+
 ## Løsningsforslag
 
-[[../../losninger/skatteinnkreveren|Åpne løsningsforslaget]].
+[[../../../losninger/skatteinnkreveren|Åpne løsningsforslaget]].
 %%

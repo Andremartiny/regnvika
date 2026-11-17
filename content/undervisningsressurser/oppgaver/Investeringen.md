@@ -2,13 +2,8 @@
 title: Investeringen
 tags:
   - rekkefolge/200/100/100
-  - type/oppgave
-  - matematikk/tall-og-regning
-  - arbeidsmate/grubleoppgave
-  - arbeidsmate/oppgavestreng
 alder: alle
 relatert:
-  - "[[../../index]]"
 draft: "false"
 ---
 ![[../../vedlegg/låneproblemer.svg]]

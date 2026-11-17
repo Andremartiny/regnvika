@@ -6,7 +6,6 @@ alder: alle
 created: 2023-08-29
 status: arbeidsnotat
 relatert:
-  - "[[../../index]]"
 draft: "false"
 ---
 
