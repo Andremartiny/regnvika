@@ -32,7 +32,7 @@ Viktige tre ting som må tenkes gjennom når vi gir oppgaver er
 > [!tip]- Forberedelser før timen
 > Øv på en kort presentasjon, og planlegg å gi elevene oppgaven i løpet av de første fem minuttene. Velg plassering, synlig informasjon og eventuelle konkreter på forhånd.
 > En oppgave bør ikke presenteres ordrett, men helst gjennom en fortelling, dialog og eller modellering av oppgaven. 
-> Se for eksempel [[../undervisningsressurser/oppgaver/losninger/svarene-er|svarene er]] for å se hvordan man kan modellerere en oppgave. 
+> Se for eksempel [[../undervisningsressurser/oppgaver/svarene-er|svarene er]] for å se hvordan man kan modellerere en oppgave. 
 
 > [!tip]- Hva sier forskningen? 
 > 
