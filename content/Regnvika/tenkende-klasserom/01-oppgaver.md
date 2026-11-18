@@ -52,6 +52,7 @@ Videre peker Liljedahl på tre typer undervisningstyper
 > - Hvilke hint kan åpne hjelpe studentene å `fortsette å tenke`?
 > - Hva kan du spørre om når en gruppe finner en løsning?
 > - Hvilken sammenheng vil du samle klassen om etterpå?
+> Gi nødvendig informasjon ved [[06-gi-oppgaver|oppstarten]]. Planlegg [[09-tips-og-utvidelser|tips og utvidelser]] og en [[10-oppsummering|oppsummering]] sammen med selve oppgaven.
 
 ## Tiltak mot et tenkende klasserom
 

@@ -7,11 +7,11 @@ Tenkende klasserom, eller **Building Thinking Classrooms (BTC)**, er et rammever
 
 ### En vei inn i stoffet
 
-Er BTC nytt for deg, kan du begynne med [[00-introduksjon|introduksjonen]] og FIXMEKASTDEGUTIDET
+Er BTC nytt for deg, kan du begynne med [[00-introduksjon|introduksjonen]] og [[../undervisningsressurser/kom-i-gang/første-time|en første time]].
 
 Bruk deretter notatene lenket til under ut fra det du trenger å planlegge eller forstå:
 
-I FIXMEKASTDEGUTIDET er flere av ideene samlet i én undervisningssekvens.
+I [[../undervisningsressurser/kom-i-gang/første-time|en første time]] er flere av ideene samlet i én undervisningssekvens, uten at de nevnes eksplisitt.
 
 ### Hva dekker notatene?
 

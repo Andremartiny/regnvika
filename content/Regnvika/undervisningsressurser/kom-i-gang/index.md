@@ -6,4 +6,6 @@ tags:
 
 Her finner du forslag som følger deg gjennom en utprøving og videre planlegging.
 
-Velg en oppgave fra listen nedenfor.
+- [[første-time|Prøv en første time]] bruker oppgaven [[../oppgaver/losninger/svarene-er|svarene er]] og gir et konkret forslag til forberedelse, oppstart, gruppearbeid og oppsummering.
+- [[Vanlige spørsmål og utfordringer]] er en samling av utfordringer lærere har støtt på i sammenheng med ressursens stoff. 
+
