@@ -25,7 +25,6 @@ FIXMEFLYTBILDE
 >
 > Den andre og tredje gruppa jobber med 3, 3, 3, 3, 24
 
-
 ### Typer tips
 
 1. Tips som øker evne
