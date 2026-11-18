@@ -15,10 +15,11 @@ Vi ønsker et læringsmiljø der alle kan lære av alle og der vi (lærere) ikke
 
 Får vi til et slikt miljø vil vi minimere dødtid (der elever står å venter på hjelp eller nye utvidelser av oppgaven) og elevene kan også få større læringsutbytte da de må øve på kommunikasjon av matematikk (dette inkludere å forstå andre gruppers arbeid bare ved å se på - passiv samspill). 
 
-> [!tip] En rutine man kan opparbeide i klassen 
+> [!tip]- En rutine man kan opparbeide i klassen 
 > 1. Når en gruppe har satt seg fast, spør de om de har sett om noen andre grupper jobber med det samme.
 > 2. Gi tips av typen `Den gruppa har gjort slik, ... Hva skjer hvis...`
-> 3. FIXME?
+> 3. Vær observant til tett-på-spørsmål og slutt-og-tenk-spørsmål. Får du slike, bør du følge opp med et spørsmål. Se mer om [[05-sporsmal|spørsmål]]
+> 4. FIXME?
 
 ## Tiltak mot et tenkende klasserom
 
