@@ -29,7 +29,6 @@ Siden vi ønsker å fostre tenking bør vi kun svare på fortsett-å-tenk-spørs
 > | «Vi har prøvd disse to måtene og står fast.» | «Hvor stopper det?» Velg et spørsmål, en framstilling eller et hint som møter akkurat dette stoppet.                                              |
 > | «Hvor skal vi skrive?»                       | Avklar organiseringen, og gjør rutinen tydelig for neste gang.                                                                                    |
 
-
 > [!tip]- Når kan du overlate elevene til seg selv? 
 > Er du overbevist om at gruppen har en idé de kan forfølge, kan du bare [[09-tips-og-utvidelser|smile å gå]]. Hvis ikke kan du be gruppa fortelle hva de vil prøve. Kom tilbake og undersøk hva forsøket førte til. Hvis eleven fortsatt mangler en inngang for å fortsette, må du velge mer støtte, se mer i [[09-tips-og-utvidelser|tips og utvidelser]].
 > Det er også viktig at måten du jobber er noe som de forstår, slik at det ikke skaper usikkerhet. Forklar arbeidsmåten for klassen:
