@@ -6,17 +6,14 @@ status: arbeidsnotat
 relatert:
 ---
 
-## Individuell forståelse
+## Hva kan eleven bruke og forklare selv?
 
-Etter gruppearbeidet trenger eleven en mulighet til å undersøke hva hen selv har forstått. I BTC brukes *check-your-understanding*-oppgaver som en anledning til å prøve og få innsikt i egen forståelse. [Liljedahls offentlige sammendrag](https://us.corwin.com/docs/default-source/resources-documents/us-1581808-what-is-building-thinking-classroo.pdf?sfvrsn=39bb5efb_0).
+Etter gruppearbeidet trenger eleven en mulighet til å undersøke hva hen selv har forstått. Mange skoler bruker lekser. En uheldig konsekvens av det er at mange opplever at oppgavene og leksene de gjør, er noe de gjør for å tilfredsstille læreren. Dette er ikke intensjonen med lekser. Derfor anbefaler BTC å bruke *test-din-forståelse*-oppgaver som en anledning til å prøve og få innsikt i egen forståelse. 
 
 ![[../../vedlegg/sjekkselv.svg|200]]
+FIX bildet
 
 ## Et forslag til bruk i skoletiden
-
-For denne ressursen legges arbeidet inn etter konsolidering og meningsfulle notater. Velg noen få oppgaver som bruker den samme matematiske sammenhengen. La hver elev gjøre et eget første forsøk, og avklar om notater eller konkreter skal brukes.
-
-Deretter kan eleven undersøke løsningen sin, sammenligne forklaringer med en medelev eller få hjelp av læreren. Et nytt, nærliggende eksempel kan vise om forklaringen nå er blitt tydeligere. Arbeidet gir eleven øving og hjelper læreren å velge neste støtte.
 
 ## Tiltak mot et tenkende klasserom
 
