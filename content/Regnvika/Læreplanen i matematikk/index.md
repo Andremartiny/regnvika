@@ -1,5 +1,5 @@
 ---
-title: Matematikk – læreplan (MAT01-06)
+title: Læreplanen
 curriculum: MAT01-06
 language: nob
 source: https://www.udir.no/lk20/mat01-06?lang=nob

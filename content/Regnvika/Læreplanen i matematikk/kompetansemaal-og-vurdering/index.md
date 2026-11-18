@@ -1,5 +1,5 @@
 ---
-title: "Kompetansemål og vurdering"
+title: "Trinn"
 curriculum: "MAT01-06"
 language: "nob"
 source: "https://www.udir.no/lk20/mat01-06?lang=nob"
