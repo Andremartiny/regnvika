@@ -2,6 +2,7 @@
 title: Regnvika
 order: "0"
 ---
+test KHO
 Hvordan kan flere elever komme i gang, prøve egne ideer og forklare hvordan de tenker?
 
 ![[vedlegg/tenkende klasserom.svg]]
