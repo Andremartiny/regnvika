@@ -37,43 +37,48 @@ Begynn med å lytte til et forsøk. Spør hvilke tall gruppa har brukt, og hvord
 
 Velg støtte ut fra det som stopper arbeidet:
 
-##### 1-4
+> [!tip]- 1.-4. trinn
+> 
+> | Situasjon                               | Et mulig neste grep                                                             |
+> | --------------------------------------- | ------------------------------------------------------------------------------- |
+> | Gruppen gjenbruker tall.                | Tilby tallkort eller spør hvordan den kan markere brukte tall.                  |
+> | Gruppen prøver uten å finne en inngang. | Spør hvilke to tall som kan gi 17, og om subtraksjon kan gi et så høyt svar.    |
+> | Gruppen har laget begge 17-svarene.     | Be den vise hvilke tall som er igjen, og undersøke de resterende svarene.       |
+> | Gruppen har en full løsning.            | Be flere forklare den og kontrollere alle reglene. Gi deretter en ny svarrekke. |
 
-| Situasjon                               | Et mulig neste grep                                                             |
-| --------------------------------------- | ------------------------------------------------------------------------------- |
-| Gruppen gjenbruker tall.                | Tilby tallkort eller spør hvordan den kan markere brukte tall.                  |
-| Gruppen prøver uten å finne en inngang. | Spør hvilke to tall som kan gi 17, og om subtraksjon kan gi et så høyt svar.    |
-| Gruppen har laget begge 17-svarene.     | Be den vise hvilke tall som er igjen, og undersøke de resterende svarene.       |
-| Gruppen har en full løsning.            | Be flere forklare den og kontrollere alle reglene. Gi deretter en ny svarrekke. |
-
-###### 5-12
-
-| Situasjon                               | Et mulig neste grep                                                             |
-| --------------------------------------- | ------------------------------------------------------------------------------- |
-| Gruppen gjenbruker tall.                | Tilby tallkort eller spør hvordan den kan markere brukte tall.                  |
-| Gruppen prøver uten å finne en inngang. | Spør hvilke to tall som kan gi 21, og om addisjon kan gi et så høyt svar.       |
-| Gruppen har laget 21, men ikke 16.      | Be de vise hvilke tall som er igjen, og spør hvilke operasjoner som kan gi 16.  |
-| Gruppen har en full løsning.            | Be flere forklare den og kontrollere alle reglene. Gi deretter en ny svarrekke. |
+> [!tip]- 5.-10. trinn
+> 
+> | Situasjon                               | Et mulig neste grep                                                             |
+> | --------------------------------------- | ------------------------------------------------------------------------------- |
+> | Gruppen gjenbruker tall.                | Tilby tallkort eller spør hvordan den kan markere brukte tall.                  |
+> | Gruppen prøver uten å finne en inngang. | Spør hvilke to tall som kan gi 21, og om addisjon kan gi et så høyt svar.       |
+> | Gruppen har laget 21, men ikke 16.      | Be de vise hvilke tall som er igjen, og spør hvilke operasjoner som kan gi 16.  |
+> | Gruppen har en full løsning.            | Be flere forklare den og kontrollere alle reglene. Gi deretter en ny svarrekke. |
 
 La gruppa arbeide videre etter et hint, og kom tilbake for å se hva som skjedde.
 
-### Samle arbeidet
+### Oppsummere
 
-Samle alle elevene rundt en tavle. Når du oppsummerer går du tilbake til første oppgave, 17,17, 8, 1, 2, bruk tallkort for å gjøre det mer visuelt hvilke tall og operasjoner som er brukt. 
+Samle alle elevene rundt en tavle.
+![[../../../vedlegg/konsolidering 1.svg|400]]
 
-Be klassen forklare:
+> [!tip]- 1.-4. trinn
+> Når du oppsummerer går du tilbake til første oppgave, 17,17, 8, 1, 2, bruk tallkort for å gjøre det mer visuelt hvilke tall og operasjoner som er brukt. 
+> 
+> Be klassen forklare:
+> - Hvorfor må 17-svarene lages med addisjon i denne oppgaven?
+> 
+> De to 17-svarene må bruke 7 + 10 og 8 + 9. Etterpå gjenstår 1–6 til svarene 8, 1 og 2. Dette er et punkt læreren kan forberede seg på; velg likevel faktisk elevarbeid til samtalen.
+> 
+> La elevene sette ord på hva som hjalp de i oppgaven
+> 
+> Gå videre til 13, 1, 9, 1, 17
+> 
+> Be klassen forklare
+> - Hvorfor må 13 og 17 lages med addisjon i denne oppgaven?
 
-- Hvorfor må 17-svarene lages med addisjon i denne oppgaven?
-
-De to 17-svarene må bruke 7 + 10 og 8 + 9. Etterpå gjenstår 1–6 til svarene 8, 1 og 2. Dette er et punkt læreren kan forberede seg på; velg likevel faktisk elevarbeid til samtalen.
-
-La elevene sette ord på hva som hjalp de i oppgaven
-
-Gå videre til 13, 1, 9, 1, 17
-
-Be klassen forklare
-
-- Hvorfor må 13 og 17 lages med addisjon i denne oppgaven?
+> [!tip]- 5.-10. trinn FIXME 
+> Når du oppsummerer går du tilbake til første oppgave, 5, 8, 13, 24, 20
 
 ### Etter timen
 
