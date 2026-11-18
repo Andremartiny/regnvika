@@ -14,13 +14,10 @@ Når elevene ser hvordan gruppene trekkes, blir inndelingen gjennomsiktig. Eleve
 
 ![[../../vedlegg/tilfeldiggrupper.svg|200]]
 
-
-
 > [!abstract]- Usikker på hvordan man dele i synlig tilfeldige grupper
 > - Kort... FIXME
 > - Ispinner... FIXME
 > - Digitalt (da burde man ha gjort fysisk og opparbeidet tillitt til at det er tifeldig først ) FIXME
-
 
 ### Hjelp gruppa til å bruke hverandres ideer
 
@@ -31,8 +28,6 @@ Gi en enkel forventning før arbeidet
 ![[../../vedlegg/gruppetavle.svg|200]]
 
 Hvis én elev gjør alt, kan du be en annen forklare neste steg før det skrives. Hvis en elev trekker seg unna, kan du spørre den med tusjen om å forklare, mens du tar tusjen og peker. Når du går gir du tusjen til eleven lengst unna, ber den eleven skrive det de andre forklarer.
-
-
 
 FIXME SKAL VI HA TING "HVORFOR" SLIK SOM UNDER?
 

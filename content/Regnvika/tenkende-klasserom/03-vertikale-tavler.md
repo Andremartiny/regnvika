@@ -8,8 +8,6 @@ relatert:
   - "[[index]]"
 ---
 
-### Kapittel 3
-
 **Hvorfor endre til viskbare vertikale tavler?**
 
 At de er viskbare reduserer terskelen for å notere ned egne tanker, selv om de er feil.
