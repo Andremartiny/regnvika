@@ -14,7 +14,7 @@ Det er tre typer spørsmål man vil møte på.
 2. Slutt-å-tenk-spørsmål 
 3. Forsett-å-tenk-spørsmål 
 
-![[../vedlegg/sporsmal.svg|200]]
+![[../../vedlegg/sporsmal.svg|200]]
 
 Siden vi ønsker å fostre tenking bør vi kun svare på fortsett-å-tenk-spørsmål og vise at vi verdsetter elevenes tenking. 
 

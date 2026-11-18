@@ -14,16 +14,16 @@ Dette er en ressurs for alle som har lyst til å lære om tenkende klasserom, hv
 
 Bruk `ctrl+k` for å søke.
 
-- [[tenkende-klasserom/index|Tenkende klasserom]] – *en kort introduksjon til hensikten og hvordan den kobles til lærerrollen*
-- [[undervisningsressurser/oppgaver/index|Oppgavebanken]] – *finn relevante oppgaver*
+- [[Regnvika/tenkende-klasserom/index|Tenkende klasserom]] – *en kort introduksjon til hensikten og hvordan den kobles til lærerrollen*
+- [[Regnvika/undervisningsressurser/oppgaver/index|Oppgavebanken]] – *finn relevante oppgaver*
 %%
 Løsningsoversikten er foreløpig et utkast. Aktiver lenken når den publiseres:
-- [[losninger/index|Løsningsforslag]] – egne sider med framgangsmåter og drøftinger.
+- [[Regnvika/undervisningsressurser/oppgaver/losninger/index|Løsningsforslag]] – egne sider med framgangsmåter og drøftinger.
 %%
 
 ### Vil du hoppe rett i en undervisningstime?
 
-Hvis du rett og slett bare har lyst til å teste ut og gå for `learning by doing`-stilen kan du gå hit [[undervisningsressurser/kom-i-gang/første-time|første time]]. Der finne et knippe konkrete forslag. Forslagene inkluderer hvordan du introduserer en time, hvordan du holder flyten i en time, samt hvordan du oppsummerer.
+Hvis du rett og slett bare har lyst til å teste ut og gå for `learning by doing`-stilen kan du gå hit [[Regnvika/undervisningsressurser/kom-i-gang/første-time|første time]]. Der finne et knippe konkrete forslag. Forslagene inkluderer hvordan du introduserer en time, hvordan du holder flyten i en time, samt hvordan du oppsummerer.
 
 Merk at det forventes at du har tilgang til vertikale tavler. 
 

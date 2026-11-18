@@ -12,7 +12,7 @@ Dette er prinsippet som driver forskningen til Liljedahl. Målet i et tenkende k
 
 Da Liljedahl observerte klasser i Canada, observerte han i en undersøkelse at elevene ikke alltid gjør det læreren har som intensjon. Han observerte at skolene, og oppbyggingen av klasserommene, la normer/rammer for undervisningen. Klasserommene var typisk det han kalte tradisjonelle, med tydelig front og strukturert for at læreren skulle formidle kunnskap til elevene.
 
-![[../vedlegg/tradisjonell.svg]]
+![[../../vedlegg/tradisjonell.svg]]
 
 Disse rammene i klasserommet førte til at undervisningen også naturlig nok ble typisk gitt ved at læreren forklarer på tavlen, elevene får lov til å prøve selv, og deretter gjennomgår man utvalgte oppgaver på tavlen. 
 
@@ -39,7 +39,7 @@ Elevene får en oppgave de kan begynne å undersøke med kunnskap de allerede ha
 
 Senere samler læreren utvalgte deler av arbeidet. Klassen forklarer og sammenligner ideer, og læreren tydeliggjør matematikken de arbeider med. Hver elev får også anledning til å undersøke sin egen forståelse.
 
-![[../vedlegg/tenkende klasserom.svg]]
+![[../../vedlegg/tenkende klasserom.svg]]
 
 > [!note]- Merk 
 *Klasserommet og rutinene gir forventninger til hvem som skal forklare, og hvem elevene kan lære av. Slike forventninger kan undersøkes og endres.*

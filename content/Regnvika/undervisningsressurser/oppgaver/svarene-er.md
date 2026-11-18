@@ -69,5 +69,5 @@ Løsningsforslaget er foreløpig et utkast. Fjern kommentaren når det publisere
 
 ## Løsningsforslag
 
-[[../../../losninger/svarene-er|Åpne løsningsforslaget]].
+[[losninger/svarene-er|Åpne løsningsforslaget]].
 %%

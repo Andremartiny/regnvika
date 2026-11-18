@@ -15,12 +15,12 @@ relatert:
 > **Utvidelser**
 > Hvis man har klart 12. Hva med 18, 24 og så 30?
 
-![[../../vedlegg/Skatteinnkreveren/Skatteinnkreveren.svg]]
+![[../../../vedlegg/Skatteinnkreveren/Skatteinnkreveren.svg]]
 
 %%
 Løsningsforslaget er foreløpig et utkast. Fjern kommentaren når det publiseres.
 
 ## Løsningsforslag
 
-[[../../../losninger/skatteinnkreveren|Åpne løsningsforslaget]].
+[[losninger/skatteinnkreveren|Åpne løsningsforslaget]].
 %%

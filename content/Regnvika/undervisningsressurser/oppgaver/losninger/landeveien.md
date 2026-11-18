@@ -4,7 +4,7 @@ order: "300/600"
 draft: "true"
 ---
 
-[[../undervisningsressurser/oppgaver/landeveien|Til oppgaven: Landeveien]].
+[[../landeveien|Til oppgaven: Landeveien]].
 
 ## Løsninger
 

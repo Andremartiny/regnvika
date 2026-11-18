@@ -12,12 +12,12 @@ Resepsjonisten tenker ikke nærmere over dette før en time senere, da han oppda
 
 Hvor mange dager må han bruke for å være sikker på å finne henne. Enn om det var fire rom, fem rom? Hvis det var 17 rom og hun skulle bo der i 30 dager, vi han da ha tid nok til å finne henne?
 
-![[../../vedlegg/mystiskekvinne.svg|500]]
+![[../../../vedlegg/mystiskekvinne.svg|500]]
 
 %%
 Løsningsforslaget er foreløpig et utkast. Fjern kommentaren når det publiseres.
 
 ## Løsningsforslag
 
-[[../../../losninger/den-mystiske-kvinnen|Åpne løsningsforslaget]].
+[[losninger/den-mystiske-kvinnen|Åpne løsningsforslaget]].
 %%

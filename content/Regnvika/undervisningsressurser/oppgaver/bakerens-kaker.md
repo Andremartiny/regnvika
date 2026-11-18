@@ -8,4 +8,4 @@ Når Henrik og André går av men pensjon bestemmer de seg for å bake kake samm
 
 Hver dag deler de kakene på nye måter. Hvor mye koster hvert stykke?
 
-![[../../vedlegg/Den_uvanlige_bakerens_kaker.svg]]
+![[../../../vedlegg/Den_uvanlige_bakerens_kaker.svg]]

@@ -10,7 +10,7 @@ status: arbeidsnotat
 
 Vi ønsker et læringsmiljø der alle kan lære av alle og der vi (lærere) ikke er kunnskapsoraklene som skal gi vår kunnskap til elevene. Både aktivt og passivt samspill mellom grupper bør oppfordres til i form av at elevene enten aktivt tar kontakt med en annen gruppe, eller passivt undersøker hva en annen gruppe har gjort. 
 
-![[../vedlegg/mobilisering 1.svg|200]]
+![[../../vedlegg/mobilisering 1.svg|200]]
 
 Får vi til et slikt miljø vil vi minimere dødtid (der elever står å venter på hjelp eller nye utvidelser av oppgaven) og elevene kan også få større læringsutbytte da de må øve på kommunikasjon av matematikk (dette inkludere å forstå andre gruppers arbeid bare ved å se på - passiv samspill). 
 

@@ -4,7 +4,7 @@ order: "200/300"
 title: De gavmilde - løsningsforslag
 ---
 
-[[../undervisningsressurser/oppgaver/de-gavmilde|Til oppgaven]]
+[[../de-gavmilde|Til oppgaven]]
 
 ## Løsninger på originale problemet
 

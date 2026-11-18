@@ -5,7 +5,7 @@ tags:
 draft: "true"
 ---
 
-[[../undervisningsressurser/oppgaver/den-mystiske-kvinnen|Til oppgaven]].
+[[../den-mystiske-kvinnen|Til oppgaven]].
 
 ## Tanker
 

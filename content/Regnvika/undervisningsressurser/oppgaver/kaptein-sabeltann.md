@@ -12,5 +12,5 @@ Kongen på havet, selveste kaptein Sabeltann, og hans åtte pirater har tenkt å
 
 Hva hvis kaptein Sabeltann hadde 9 menn? Hva med 10 menn? N menn?
 
-![[../../vedlegg/Piratproblem.svg]]
+![[../../../vedlegg/Piratproblem.svg]]
 

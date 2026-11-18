@@ -10,7 +10,7 @@ status: arbeidsnotat
 
 Har det noe å si hvordan et klasserom er møblert? Forskningen til Liljedahl tilsier at for velorganiserte, strukturerte og symmetriske klasserom er noe alle har et bilde av hvordan undervisningen foregår. Det er typisk tradisjonell undervisning da slik møblering legger opp til det. Møbleringen kan også signalisere orden og ikke lage rom til prøving og feiling. 
 
-![[../vedlegg/moblering.svg]]
+![[../../vedlegg/moblering.svg]]
 
 ## Tiltak mot et tenkende klasserom
 

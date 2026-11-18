@@ -12,4 +12,4 @@ En landevei er 27 km lang og strekker seg hele veien rundt en innsjø. Den forbi
 
 ## Løsningsforslag
 
-[[../../losninger/landeveien|Åpne løsningsforslaget]].
+[[losninger/landeveien|Åpne løsningsforslaget]].

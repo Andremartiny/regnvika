@@ -17,17 +17,17 @@ En oppgave som er ny og utfordrende for én elevgruppe, kan være en kjent rutin
 Liljedahl beskriver tre typer oppgaver som han kaller *tenkeoppgaver* (FIXME ble litt usikker på om dette er det han faktisk kaller det)
 
 > [!tip] Grubleoppgaver
-> ![[../vedlegg/gruble.svg]]
+> ![[../../vedlegg/gruble.svg]]
 > 
 Oppgaver som er så engasjerende og interessante at man ikke klarer å la være å tenke på de.
 
 > [!tip] Korttriks
-> ![[../vedlegg/korttriks.svg|200]]
+> ![[../../vedlegg/korttriks.svg|200]]
 > Korttriks som kan løses ved å bruke matematikk og matematisk tenking.
 > [Korttriks presentert av Liljedahl](https://www.peterliljedahl.com/teachers/card-tricks)
 
 > [!tip] Virkelighetsnære oppgaver
-> ![[../vedlegg/låneproblemer 1.svg|200]]
+> ![[../../vedlegg/låneproblemer 1.svg|200]]
 > FIXMEVI MANGLER FORKALRING (Selvsagt?) F
 > For eksempel [[../undervisningsressurser/oppgaver/Investeringen|Investeringen]]
 > Flere slike oppgaver finnes her [Virkelighetsnære oppgaver](https://www.peterliljedahl.com/teachers/numeracy-tasks)

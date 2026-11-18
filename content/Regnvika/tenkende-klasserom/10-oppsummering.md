@@ -21,15 +21,15 @@ Avhengig av mål med timen kan vi forankre kunnskapen ulikt.
 - Lærerstyrt diskusjon, der ingenting skrives ned
   - Lærer samler elever og diskuterer, for eksempel hvilke strategier de brukte
   - Fungerer for eksempel bra i åpne oppgaver der vi ønsker å diskutere strategier, logikk og ha matematiske samtaler
-    ![[../vedlegg/konsolidering 1.svg|400]]
+    ![[../../vedlegg/konsolidering 1.svg|400]]
 - Lærerstyrt diskusjon, der lærer skriver
   - Lærer leder en klassesamtale, og går gjennom problemene og fremhever fremgangsmåter o.l.
     - Fungerer ofte godt i oppgaverekker eller situasjoner der lærer ønsker å styre inn på spesifikk matematikk.
 - Gallerivandring
   - Lærer går med elevene rundt i klasserommet og ser på (forhåndsvalgte) tavler. Lærer bør i de fleste tilfeller "låse" deler av tavlene til elevene.
-    ![[../vedlegg/låse.svg|200]]
+    ![[../../vedlegg/låse.svg|200]]
     - Å låse betyr å bokse inn arbeid å gi beskjed om å ikke skrive eller fjerne det som er i boksen, fordi det skal brukes i oppsummeringen. 
-      ![[../vedlegg/konsolidering.svg]]
+      ![[../../vedlegg/konsolidering.svg]]
   - Kan fungere i de fleste kontekster. Viktig å ha en plan for å klare å forankre _fra_ bunnen.
 En gallerivandring kan være en god ramme. Arbeid kan også samles på én tavle når det gir bedre oversikt. Planlegg en avslutning som alle kan se, høre og delta i.
 

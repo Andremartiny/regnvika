@@ -4,7 +4,7 @@ order: "300/300"
 draft: "true"
 ---
 
-[[../undervisningsressurser/oppgaver/lyspaereproblemet|Til oppgaven: Lyspæreproblemet]].
+[[../lyspaereproblemet|Til oppgaven: Lyspæreproblemet]].
 
 ## Spørsmål og løsninger
 

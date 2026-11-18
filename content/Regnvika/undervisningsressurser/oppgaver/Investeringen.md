@@ -5,7 +5,7 @@ alder: alle
 relatert:
 draft: "false"
 ---
-![[../../vedlegg/låneproblemer.svg]]
+![[../../../vedlegg/låneproblemer.svg]]
 
 For seks år siden gjorde du og en venn en investering sammen ved å kjøpe en bolig i 
 fellesskap. Det var ikke bare en investering, men også en måte å hjelpe vennen din på. 

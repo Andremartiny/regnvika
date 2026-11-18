@@ -11,7 +11,7 @@ relatert:
 
 Etter gruppearbeidet trenger eleven en mulighet til å undersøke hva hen selv har forstått. I BTC brukes *check-your-understanding*-oppgaver som en anledning til å prøve og få innsikt i egen forståelse. [Liljedahls offentlige sammendrag](https://us.corwin.com/docs/default-source/resources-documents/us-1581808-what-is-building-thinking-classroo.pdf?sfvrsn=39bb5efb_0).
 
-![[../vedlegg/sjekkselv.svg|200]]
+![[../../vedlegg/sjekkselv.svg|200]]
 
 ## Et forslag til bruk i skoletiden
 

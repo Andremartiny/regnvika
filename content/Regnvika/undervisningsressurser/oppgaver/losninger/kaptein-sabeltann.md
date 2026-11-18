@@ -5,7 +5,7 @@ tags:
 draft: "true"
 ---
 
-[[../undervisningsressurser/oppgaver/kaptein-sabeltann|Til oppgaven: Kaptein Sabeltann og den magiske diamant]].
+[[../kaptein-sabeltann|Til oppgaven: Kaptein Sabeltann og den magiske diamant]].
 
 ## Løsninger
 

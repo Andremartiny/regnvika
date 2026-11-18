@@ -20,11 +20,11 @@ Elevene blir også passive dersom de sitter ved pulten mens læreren snakker. F�
 
 Elevene henger seg opp i detaljer som gis skriftlig. Vi bør derfor unngå skriftlige ark så godt det lar seg gjøre. Oppgavene bør derfor gis *muntlig* og detaljer som må skrives ned bør skrives *mens* læreren snakker. 
 
-![[../vedlegg/snakk.svg|200]]
+![[../../vedlegg/snakk.svg|200]]
 
 Det bør ikke være mulig å forstå hva de skal gjøre ved å kun se på tavlen der detaljene ble skrevet. Dersom noe må gis skriftlig, for eksempel en tabell eller lignende, bør det være så smått at de ikke kan skrive på det de får. 
 
-![[../vedlegg/konsolidering 2.svg|300]]
+![[../../vedlegg/konsolidering 2.svg|300]]
 
 ## Tiltak mot et tenkende klasserom
 

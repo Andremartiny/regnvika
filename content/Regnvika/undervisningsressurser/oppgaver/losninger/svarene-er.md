@@ -6,7 +6,7 @@ alder: alle
 draft: "true"
 ---
 
-[[../undervisningsressurser/oppgaver/svarene-er|Til oppgaven: Svarene er]].
+[[../svarene-er|Til oppgaven: Svarene er]].
 
 ## Løsninger
 
