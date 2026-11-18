@@ -19,7 +19,6 @@ Når alle pulter og blikk vender mot samme tavle, blir det naturlig å rette sp�
 > Forskningen til Liljedahl tilsier at for velorganiserte, strukturerte og symmetriske klasserom er noe alle har et bilde av hvordan undervisningen foregår. *Elevene* har også dannet seg et bilde av hvordan de skal være og oppføre seg i et slikt klasserom.
 > Vi bryter denne tradisjonen ved å lage et rom som er litt kaotisk (men ikke for), som signaliserer at det er rom for prøving og feiling. 
 
-
 ## Tiltak mot et tenkende klasserom
 
 > [!success]- Makrotiltak
