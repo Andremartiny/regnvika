@@ -1,6 +1,6 @@
 ---
 title: Kom i gang
-order: "200"
+order: "100"
 tags:
 ---
 
