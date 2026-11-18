@@ -27,16 +27,16 @@ Det bør ikke være mulig å forstå hva de skal gjøre ved å kun se på tavlen
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Gi elevene den første tenkeoppgaven i løpet av de tre til fem første minuttene av timen.
+> - [ ] Gi dem oppgaven mens de står samlet rundt deg.
+> - [ ] Utform tenkeoppgaven muntlig.
 
-- [ ] Gi elevene den første tenkeoppgaven i løpet av de tre til fem første minuttene av timen.
-- [ ] Gi dem oppgaven mens de står samlet rundt deg.
-- [ ] Utform tenkeoppgaven muntlig.
+> [!info]- Mikrotiltak
+> - [ ] Skap rom og plass til at alle elevene kan stå behagelig
+> - [ ] Stå gjerne på forskjellige steder i rommet når du presenterer oppgaver for elevene
+> - [ ] Hvis elevene trenger ny kunnskap for å kunne løse den første oppgaven, tenker du 
+> - [ ] jennom hvor lite du kan si og skrive for at de skal kunne løse oppgaven.
+> - [ ] Når du formulerer oppgaven, skriver du bare de detaljene på tavla som elevene ellers ville måtte bruke krefter på å huske, som mengder, mål, geometriske figurerer, data, algebraiske uttrykk og så videre
+> - [ ] Når elevene er i gang, spør du deg om det som står på tavla, vil gi mening for en elev som kommer for sent.
 
-### Mikrotiltak
-
-- [ ] Skap rom og plass til at alle elevene kan stå behagelig
-- [ ] Stå gjerne på forskjellige steder i rommet når du presenterer oppgaver for elevene
-- [ ] Hvis elevene trenger ny kunnskap for å kunne løse den første oppgaven, tenker du gjennom hvor lite du kan si og skrive for at de skal kunne løse oppgaven.
-- [ ] Når du formulerer oppgaven, skriver du bare de detaljene på tavla som elevene ellers ville måtte bruke krefter på å huske, som mengder, mål, geometriske figurerer, data, algebraiske uttrykk og så videre
-- [ ] Når elevene er i gang, spør du deg om det som står på tavla, vil gi mening for en elev som kommer for sent.

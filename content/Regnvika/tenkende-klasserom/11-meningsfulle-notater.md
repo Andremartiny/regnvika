@@ -22,18 +22,15 @@ En mulig invitasjon er:
 La elevene velge en figur, et eksempel og noen ord som viser sammenhengen dere har samlet. Læreren kan hjelpe med spørsmål og faglig presisering. Elevene trenger ulik støtte til å lage noe de faktisk forstår og kan bruke.
 ak mot et tenkende klasserom
 
-### Makrotiltak
+## Tiltak mot et tenkende klasserom
 
-- [ ] La elevene lage et kort notat som hjelper dem å huske og bruke den matematiske ideen.
+> [!info]- Makrotiltak
+> - [ ] La elevene lage et kort notat som hjelper dem å huske og bruke den matematiske ideen.
 
-### Mikrotiltak
+> [!info]- Mikrotiltak
+> - [ ] Gi tid til notatet etter at den felles sammenhengen er tydeliggjort.
+> - [ ] Be elevene velge et eksempel og forklare hva det viser.
+> - [ ] Tilby tegning, konkreter, muntlig forklaring og skrivestøtte etter behov.
+> - [ ] Undersøk om eleven kan forklare sitt eget notat.
+> - [ ] La notatet komme til nytte i en senere oppgave, og gi rom for å forbedre det.
 
-- [ ] Gi tid til notatet etter at den felles sammenhengen er tydeliggjort.
-- [ ] Be elevene velge et eksempel og forklare hva det viser.
-- [ ] Tilby tegning, konkreter, muntlig forklaring og skrivestøtte etter behov.
-- [ ] Undersøk om eleven kan forklare sitt eget notat.
-- [ ] La notatet komme til nytte i en senere oppgave, og gi rom for å forbedre det.
-
-## Grunnlag
-
-Kort faglig oppsummering med utgangspunkt i kapittel 11 i *Å bygge tenkende klasserom i matematikk*. Eksemplene og tiltakene er lokale forslag. Nyere oppgavebøker gir også eksempler på slike notater. [Liljedahl og Giroux (2024), forlagets omtale](https://www.corwin.com/books/btc-math-tasks-k-5-285210).

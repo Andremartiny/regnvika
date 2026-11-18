@@ -15,13 +15,11 @@ Får vi til et slikt miljø vil vi minimere dødtid (der elever står å venter 
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Mobiliser kunnskapen som allerede finnes i rommet
 
-- [ ] Mobiliser kunnskapen som allerede finnes i rommet
-
-### Mikrotiltak
-
-- [ ] Støtt elevene i passive samspill ved å oppfordre til å se på hva andre grupper gjør.
-- [ ] Støtt elevene i aktive samspill ved å foreslå at gruppene snakker sammen.
-- [ ] Vær bevisst mindre hjelpsom.
-- [ ] Unngå å si eller vise noe som ei annen gruppe kan gjøre.
+> [!info]- Mikrotiltak
+> - [ ] Støtt elevene i passive samspill ved å oppfordre til å se på hva andre grupper gjør.
+> - [ ] Støtt elevene i aktive samspill ved å foreslå at gruppene snakker sammen.
+> - [ ] Vær bevisst mindre hjelpsom.
+> - [ ] Unngå å si eller vise noe som ei annen gruppe kan gjøre.

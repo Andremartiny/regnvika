@@ -35,22 +35,16 @@ En gallerivandring kan være en god ramme. Arbeid kan også samles på én tavle
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Forankre fra bunnen av: Begynn med en tilgjengelig idé og bygg fram mot det matematiske målet.
 
-- [ ] Forankre fra bunnen av: Begynn med en tilgjengelig idé og bygg fram mot det matematiske målet.
-
-### Mikrotiltak
-
-- [ ] Sett av tid til konsolidering når du planlegger timen.
-- [ ] Marker utvalgte deler av elevenes arbeid, for eksempel med en annen farge.
-- [ ] Bruk hint underveis dersom en viktig idé trenger hjelp til å komme fram.
-- [ ] Velg noen få arbeider og planlegg rekkefølgen i samtalen.
-- [ ] Bruk tid på grunnideene før dere går videre til mer sammensatte resonnementer.
-- [ ] Be elevene forklare og sammenligne ideer på tvers av gruppene.
-- [ ] Avslutt med at elevene setter ord på sammenhengen dere har arbeidet med.
+> [!info]- Mikrotiltak
+> - [ ] Sett av tid til konsolidering når du planlegger timen.
+> - [ ] Marker utvalgte deler av elevenes arbeid, for eksempel med en annen farge.
+> - [ ] Bruk hint underveis dersom en viktig idé trenger hjelp til å komme fram.
+> - [ ] Velg noen få arbeider og planlegg rekkefølgen i samtalen.
+> - [ ] Bruk tid på grunnideene før dere går videre til mer sammensatte resonnementer.
+> - [ ] Be elevene forklare og sammenligne ideer på tvers av gruppene.
+> - [ ] Avslutt med at elevene setter ord på sammenhengen dere har arbeidet med.
 
 Etter konsolideringen kan elevene lage meningsfulle notater (kapittel 11) og [[07-sjekk-forstaelsen|sjekke sin egen forståelse]].
-
-## Grunnlag
-
-Kort faglig oppsummering av kapittel 10 i *Å bygge tenkende klasserom i matematikk*. Eksemplet og sjekklisten over er bearbeidet for denne ressursen. De nyere oppgavebøkene følger også opp sammenhengen mellom konsolidering, notater og forståelsessjekk. [Liljedahl og Giroux (2024), forlagets omtale](https://www.corwin.com/books/btc-math-tasks-k-5-285210).

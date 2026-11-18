@@ -40,12 +40,10 @@ FIXME SKAL VI HA TING "HVORFOR" SLIK SOM UNDER?
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Bruk synlig tilfeldig sammensatte grupper.
 
-- [ ] Bruk synlig tilfeldig sammensatte grupper.
-
-### Mikrotiltak
-
-- [ ] På 1.-2. trinn setter du sammen grupper på to elever, og fra og med 3. trinn setter du sammen grupper på tre.
-- [ ] Velg en metode for tilfeldig gruppeinndeling som også gjør det tydelig for elevene hvor de hører til.
-- [ ] Finn en metode for tilfeldig gruppeinndeling som gjør det klart for elevene at du vet hvilken gruppe de tilhører.
+> [!info]- Mikrotiltak
+> - [ ] På 1.-2. trinn setter du sammen grupper på to elever, og fra og med 3. trinn setter du sammen grupper på tre.
+> - [ ] Velg en metode for tilfeldig gruppeinndeling som også gjør det tydelig for elevene hvor de hører til.
+> - [ ] Finn en metode for tilfeldig gruppeinndeling som gjør det klart for elevene at du vet hvilken gruppe de tilhører.

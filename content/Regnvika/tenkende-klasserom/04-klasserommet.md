@@ -13,13 +13,11 @@ Har det noe å si hvordan et klasserom er møblert? Forskningen til Liljedahl ti
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Sett bordene sammen i grupper slik at de ikke vender mot tavlen.
 
-- [ ] Sett bordene sammen i grupper slik at de ikke vender mot tavlen.
-
-### Mikrotiltak
-
-- [ ] Samle bordene i klynger som ikke står inntil vertikale flater.
-- [ ] Plasser bordene slik at stolene er vendt i mange forskjellige retninger.
-- [ ] Unngå å plassere deg i det området som før var foran i rommet.
-- [ ] Beveg deg rundt i rommet når du snakker med elevene.
+> [!info]- Mikrotiltak
+> - [ ] Samle bordene i klynger som ikke står inntil vertikale flater.
+> - [ ] Plasser bordene slik at stolene er vendt i mange forskjellige retninger.
+> - [ ] Unngå å plassere deg i det området som før var foran i rommet.
+> - [ ] Beveg deg rundt i rommet når du snakker med elevene.

@@ -19,23 +19,21 @@ Siden vi ønsker å fostre tenking bør vi kun svare på fortsett-å-tenk-spørs
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
+> [!info]- Makrotiltak
+> - [ ] Svar bare på fortsett-å-tenke-spørsmål
 
-- [ ] Svar bare på fortsett-å-tenke-spørsmål
-
-### Mikrotiltak
-
-- [ ] Når elevene stiller deg et **tett-på-spørsmål** eller **slutt-å-tenk-spørsmål** som du ikke vil svare på, kan du heller svare dem med et av disse spørsmålene
-    - [ ] Er ikke det interessant?
-    - [ ]  Spør du, eller forteller du meg det?
-    - [ ] Kan du vise meg hvordan du gjorde det?
-    - [ ] Gir det mening?
-    - [ ] Er du sikker?
-    - [ ] Er det alltid sånn?
-    - [ ] Hvorfor tror du at det er sånn?
-    - [ ] Hvorfor tror du at det er sånn?
-    - [ ] Hva om du prøver en annen oppgave? 
-    - [ ] Finner du noe mer?
-    - [ ] Enn om du prøver noe annet?
-- [ ] Smil og gå vekk når du får et **tett-på-spørsmål** eller et **slutt-å-tenk-spørsmål**
-- [ ] Snakk med elevene om de tre typene spørsmål de stiller, og hvilke spørsmål du vil besvare, etter at du har innført den nye praksisen.
+> [!info]- Mikrotiltak
+> - [ ] Når elevene stiller deg et **tett-på-spørsmål** eller **slutt-å-tenk-spørsmål** som du ikke vil svare på, kan du heller svare dem med et av disse spørsmålene
+>     - [ ] Er ikke det interessant?
+>     - [ ]  Spør du, eller forteller du meg det?
+>     - [ ] Kan du vise meg hvordan du gjorde det?
+>     - [ ] Gir det mening?
+>     - [ ] Er du sikker?
+>     - [ ] Er det alltid sånn?
+>     - [ ] Hvorfor tror du at det er sånn?
+>     - [ ] Hvorfor tror du at det er sånn?
+>     - [ ] Hva om du prøver en annen oppgave? 
+>     - [ ] Finner du noe mer?
+>     - [ ] Enn om du prøver noe annet?
+> - [ ] Smil og gå vekk når du får et **tett-på-spørsmål** eller et **slutt-å-tenk-spørsmål**
+> - [ ] Snakk med elevene om de tre typene spørsmål de stiller, og hvilke spørsmål du vil besvare, etter at du har innført den nye praksisen.

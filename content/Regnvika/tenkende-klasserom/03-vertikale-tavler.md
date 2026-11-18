@@ -34,7 +34,6 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 
 ## Tiltak mot et tenkende klasserom
 
-
 > [!info]- Makrotiltak
 > - [ ] Bruk vertikale, slettbare flater.
 
