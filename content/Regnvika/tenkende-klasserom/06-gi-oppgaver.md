@@ -17,7 +17,7 @@ Viktige tre ting som må tenkes gjennom når vi gir oppgaver er
 > Dersom vi bruker for lang tid på å gi oppgaven vil elevene gå inn i en slags passiv modus. Derfor bør oppgaven gis i løpet av de 4-5 første minuttene. 
 > 
 
-> [!tip]  Hvor gir vi oppgaven?
+> [!tip] Hvor gir vi oppgaven?
 > Elevene blir passive dersom de sitter ved pulten mens læreren snakker. Få de opp og i en aktiv rolle mens oppgaven blir gitt. 
 > ![[../../vedlegg/konsolidering 2.svg|300]]
 > Oppgavene bør derfor gis *muntlig* og detaljer som må skrives ned bør skrives *mens* læreren snakker. 
@@ -28,7 +28,6 @@ Viktige tre ting som må tenkes gjennom når vi gir oppgaver er
 > 
 > Det bør ikke være mulig å forstå hva de skal gjøre ved å kun se på tavlen der detaljene ble skrevet. Dersom noe må gis skriftlig, for eksempel en tabell eller lignende, bør det være så smått at de ikke kan skrive på det de får. 
 > ![[../../vedlegg/snakk.svg|200]]
-
 
 > [!tip]- Forberedelser før timen
 > Øv på en kort presentasjon, og planlegg å gi elevene oppgaven i løpet av de første fem minuttene. Velg plassering, synlig informasjon og eventuelle konkreter på forhånd.
