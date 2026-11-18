@@ -2,7 +2,6 @@
 title: 6. Hvordan gi oppgaver
 order: 100/700
 tags:
-created: 2023-09-04
 status: arbeidsnotat
 relatert:
   - "[[index]]"

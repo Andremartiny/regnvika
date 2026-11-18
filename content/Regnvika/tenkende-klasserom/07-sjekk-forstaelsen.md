@@ -2,7 +2,6 @@
 title: 7. Sjekk din forståelse
 order: 100/800
 tags:
-created: 2026-11-13
 status: arbeidsnotat
 relatert:
 ---

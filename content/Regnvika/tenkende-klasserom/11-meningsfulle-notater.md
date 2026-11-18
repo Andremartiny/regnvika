@@ -2,7 +2,6 @@
 title: 11. Meningsfulle notater
 order: 100/1200
 tags:
-created: 2026-11-13
 status: arbeidsnotat
 relatert:
   - "[[10-oppsummering]]"

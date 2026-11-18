@@ -2,7 +2,6 @@
 title: 4. Klasserommet
 order: 100/500
 tags:
-created: 2023-09-11
 status: arbeidsnotat
 ---
 

@@ -2,11 +2,11 @@
 title: 3. Viskbare vertikale tavler
 order: 100/400
 tags:
-created: 2023-09-11
 status: arbeidsnotat
 relatert:
   - "[[index]]"
 ---
+
 ### Gjør ideene synlige og lette å endre
 
 På en viskbar arbeidsflate kan gruppa tegne, prøve og endre en idé nesten umiddelbart. Når flatene er synlige i rommet (vertikale), får både elevene og læreren tilgang til mer av arbeidet som foregår.
@@ -17,8 +17,6 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 
 ![[../../vedlegg/mobiliser.svg|200]]
 
-
-
 > [!tip]- Hva sier forskningen?
 > 
 > At de er viskbare reduserer terskelen for å notere ned egne tanker, selv om de er feil.
@@ -27,9 +25,6 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 > - Elevene blir mindre passive og anonyme. De kan ikke lenger gjemme seg bort slik de kan i arbeidsbøkene sine. 
 > - Å sitte er gjør at man kommer i en veldig passiv tilstand. Bare det å stå aktiviserer i seg selv. Øker dermed engasjement.
 > - Læreren kan få og har mye bedre oversikt over hvor
-
-
-
 
 ## Tiltak mot et tenkende klasserom
 

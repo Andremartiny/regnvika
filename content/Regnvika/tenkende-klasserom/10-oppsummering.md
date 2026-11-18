@@ -2,8 +2,6 @@
 title: 10. Oppsummering
 order: 100/1100
 tags:
-created: 2023-09-04
-updated: 2026-11-13
 status: arbeidsnotat
 relatert:
 draft: "false"

@@ -2,7 +2,6 @@
 title: 2. Gruppesammensetning
 order: 100/300
 tags:
-created: 2023-09-04
 status: arbeidsnotat
 relatert:
   - "[[index]]"

@@ -2,7 +2,6 @@
 title: 8. Mobilisere kunnskap
 order: 100/900
 tags:
-created: 2023-09-11
 status: arbeidsnotat
 ---
 

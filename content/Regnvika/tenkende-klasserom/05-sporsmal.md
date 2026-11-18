@@ -2,7 +2,6 @@
 title: 5. Svare på spørsmål
 order: 100/600
 tags:
-created: 2023-09-11
 status: arbeidsnotat
 ---
 

@@ -2,7 +2,6 @@
 title: 12. Vurder det du verdsetter
 order: 100/1300
 tags:
-created: 2026-11-13
 status: arbeidsnotat
 relatert:
   - "[[08-mobilisere-kunnskap]]"

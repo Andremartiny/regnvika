@@ -2,7 +2,6 @@
 title: 1. Oppgaver
 order: 100/200
 tags:
-created: 2023-09-11
 status: arbeidsnotat
 ---
 
