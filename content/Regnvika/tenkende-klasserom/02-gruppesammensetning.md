@@ -28,8 +28,6 @@ Gi en enkel forventning før arbeidet
 
 Hvis én elev gjør alt, kan du be en annen forklare neste steg før det skrives. Hvis en elev trekker seg unna, kan du spørre den med tusjen om å forklare, mens du tar tusjen og peker. Når du går gir du tusjen til eleven lengst unna, ber den eleven skrive det de andre forklarer.
 
-FIXME SKAL VI HA TING "HVORFOR" SLIK SOM UNDER?
-
 > [!tip]- Hva viser forskningen? 
 > - *Synlig* tilfeldig er viktig for at elevene faktisk ikke mistenker læreren for å manipulere med gruppene.
 > - Vilje til samarbeid: At de vet det er helt tilfeldig gjør at det fjerner _motvilje_ mot å jobbe med enkelte andre
@@ -40,10 +38,10 @@ FIXME SKAL VI HA TING "HVORFOR" SLIK SOM UNDER?
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Bruk synlig tilfeldig sammensatte grupper.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] På 1.-2. trinn setter du sammen grupper på to elever, og fra og med 3. trinn setter du sammen grupper på tre.
 > - [ ] Velg en metode for tilfeldig gruppeinndeling som også gjør det tydelig for elevene hvor de hører til.
 > - [ ] Finn en metode for tilfeldig gruppeinndeling som gjør det klart for elevene at du vet hvilken gruppe de tilhører.

@@ -19,10 +19,10 @@ Siden vi ønsker å fostre tenking bør vi kun svare på fortsett-å-tenk-spørs
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Svar bare på fortsett-å-tenke-spørsmål
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Når elevene stiller deg et **tett-på-spørsmål** eller **slutt-å-tenk-spørsmål** som du ikke vil svare på, kan du heller svare dem med et av disse spørsmålene
 >     - [ ] Er ikke det interessant?
 >     - [ ]  Spør du, eller forteller du meg det?

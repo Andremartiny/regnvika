@@ -7,10 +7,10 @@ status: arbeidsnotat
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Legg til rette for at elevene kan oppnå og opprettholde flyt gjennom asynkron bruk av tips og utvidelser.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] La gruppene ta ansvar for at alle i gruppa lærer noe
 > - [ ] Få gruppene til å skrive oppgaven de jobber med, øverst på tusjtavla.
 > - [ ] Begynn med enkle oppgaver slik at gruppa finner flyten.

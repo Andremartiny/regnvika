@@ -27,12 +27,12 @@ Det bør ikke være mulig å forstå hva de skal gjøre ved å kun se på tavlen
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Gi elevene den første tenkeoppgaven i løpet av de tre til fem første minuttene av timen.
 > - [ ] Gi dem oppgaven mens de står samlet rundt deg.
 > - [ ] Utform tenkeoppgaven muntlig.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Skap rom og plass til at alle elevene kan stå behagelig
 > - [ ] Stå gjerne på forskjellige steder i rommet når du presenterer oppgaver for elevene
 > - [ ] Hvis elevene trenger ny kunnskap for å kunne løse den første oppgaven, tenker du 

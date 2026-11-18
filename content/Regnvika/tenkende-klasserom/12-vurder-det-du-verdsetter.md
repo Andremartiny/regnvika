@@ -10,14 +10,15 @@ draft: "true"
 ---
 
 ## Evaluate what you value
+
 FIXME
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Gi oppmerksomhet og tilbakemeldinger til de arbeidsmåtene og kompetansene dere ønsker å utvikle.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Velg få, tydelige kjennetegn sammen med elevene.
 > - [ ] Se etter konkrete eksempler underveis i oppgaven.
 > - [ ] Gi tilbakemelding på handlingen og hva den bidro til.

@@ -55,10 +55,10 @@ Videre peker Liljedahl på tre typer undervisningstyper
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Start hver time (første 5 minutter) med en engasjerende tenkeoppgave.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] De første 3-5 engasjerende tenkeoppgavene du bruker, er grubleoppgaver eller dreier som en generell matematisk problemløsning (type 1)
 > - [ ] Bytt deretter til de strukturerte, lærerplanbaserte oppgaver som er knyttet til kompetansemålene (type 2)
 > - [ ] Strukturer disse oppgavene slik at du

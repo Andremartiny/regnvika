@@ -35,10 +35,10 @@ En gallerivandring kan være en god ramme. Arbeid kan også samles på én tavle
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Forankre fra bunnen av: Begynn med en tilgjengelig idé og bygg fram mot det matematiske målet.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Sett av tid til konsolidering når du planlegger timen.
 > - [ ] Marker utvalgte deler av elevenes arbeid, for eksempel med en annen farge.
 > - [ ] Bruk hint underveis dersom en viktig idé trenger hjelp til å komme fram.

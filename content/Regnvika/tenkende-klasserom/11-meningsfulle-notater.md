@@ -24,10 +24,10 @@ ak mot et tenkende klasserom
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] La elevene lage et kort notat som hjelper dem å huske og bruke den matematiske ideen.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Gi tid til notatet etter at den felles sammenhengen er tydeliggjort.
 > - [ ] Be elevene velge et eksempel og forklare hva det viser.
 > - [ ] Tilby tegning, konkreter, muntlig forklaring og skrivestøtte etter behov.

@@ -20,10 +20,10 @@ Deretter kan eleven undersøke løsningen sin, sammenligne forklaringer med en m
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Gi hver elev en kort mulighet til å bruke og undersøke den matematiske ideen selv.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Velg oppgaver som henger sammen med timens mål og konsolidering.
 > - [ ] Be om en forklaring, tegning eller modell som synliggjør framgangsmåten.
 > - [ ] Gjør avtalte hjelpemidler tilgjengelige, og legg merke til hvilken støtte eleven bruker.

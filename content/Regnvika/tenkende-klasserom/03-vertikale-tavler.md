@@ -34,10 +34,10 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 
 ## Tiltak mot et tenkende klasserom
 
-> [!info]- Makrotiltak
+> [!success]- Makrotiltak
 > - [ ] Bruk vertikale, slettbare flater.
 
-> [!info]- Mikrotiltak
+> [!success]- Mikrotiltak
 > - [ ] Bare én tusj per gruppe
 > - [ ] Pass på at elevene har tusjen etter tur
 > - [ ] Ha iblant som regel at den som skriver, ikke skal notere ned egne ideer
