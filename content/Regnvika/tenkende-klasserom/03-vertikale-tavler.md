@@ -17,6 +17,12 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 
 ![[../../vedlegg/mobiliser.svg|200]]
 
+> [!tip]- Forberedelser før timen
+> - Sett opp en viskbar flate til hver gruppe og gjør tavlene synlige for andre grupper
+> - Plasser tavlene så godt som mulig, slik at alle elevene kan delta, se arbeid fra alles grupper
+> - Ha én tush og noe å viske med per gruppe
+>
+
 > [!tip]- Hva sier forskningen?
 > 
 > At de er viskbare reduserer terskelen for å notere ned egne tanker, selv om de er feil.
@@ -28,17 +34,15 @@ Du som lærer kan se hvilke framstillinger elevene velger, hvor resonnementet st
 
 ## Tiltak mot et tenkende klasserom
 
-### Makrotiltak
 
-- [ ] Bruk vertikale, slettbare flater.
+> [!info]- Makrotiltak
+> - [ ] Bruk vertikale, slettbare flater.
 
-### Mikrotiltak
-
-- [ ] Bare én tusj per gruppe
-- [ ] Pass på at elevene har tusjen etter tur
-- [ ] Ha iblant som regel at den som skriver, ikke skal notere ned egne ideer
-- [ ] Be gruppene ta ansvar for at alle i gruppa lærer noe.
-- [ ] Hold gruppene tett (men ikke for tett) på hverandre
-- [ ] Snakk med elevene om verdien av ideer som ikke er riktige, og om ikke å viske ut andres arbeid.
-
-![[../../vedlegg/tusj.svg|200]]
+> [!info]- Mikrotiltak
+> - [ ] Bare én tusj per gruppe
+> - [ ] Pass på at elevene har tusjen etter tur
+> - [ ] Ha iblant som regel at den som skriver, ikke skal notere ned egne ideer
+> - [ ] Be gruppene ta ansvar for at alle i gruppa lærer noe.
+> - [ ] Hold gruppene tett (men ikke for tett) på hverandre
+> - [ ] Snakk med elevene om verdien av ideer som ikke er riktige, og om ikke å viske ut andres arbeid.
+> ![[../../vedlegg/tusj.svg|200]]
