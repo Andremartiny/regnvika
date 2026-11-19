@@ -25,5 +25,5 @@ På innholdssidene i Regnvika benytter vi ikoner for å skille spørsmåls- og i
 > Noen kategorier er i utgangspunktet minimert, men kan trykkes på for å se innholdet.
 > Regnvika har også en veldig rask og god søkemotor. Trykk enten på `ctrl+k` eller trykk på søkeboksen til venstre. Undersøk selv hvordan den fungerer. Prøv eksempler som `6. trinn` eller `tenkende klasserom`. 
 > > [!danger] FIXME
-> > Vi kan også legge inn tagger som kan søkes, typ #btc eller #regneferdigheter osv osv. Er det noe vi skal gjøre/teste?
+> > Vi kan også legge inn tagger som kan søkes, typ `#btc` eller `#regneferdigheter` osv osv. Er det noe vi skal gjøre/teste?
 
