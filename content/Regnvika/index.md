@@ -8,17 +8,29 @@ Regnvika er bygget opp av flere innholdsmapper, som er sortert under denne innho
 På innholdssidene i Regnvika benytter vi ikoner for å skille spørsmåls- og informasjons-kategorier. Disse er:
 
   > [!info] Definisjon 
+  > Definerer et begrep - matematisk eller didaktisk
 
-Definerer et begrep - matematisk eller didaktisk
+
 
 > [!tip] Forklaring 
+> Forklarer et begrep eller FIX ME
 
-Forklarer et begrep eller FIX ME
+
 
 > [!question] Spørsmål 
+> Stiller spørsmål til innholdet som kan reflekteres over mens en leser, stiller spørsmål som kan danne utgangspunkt for planlegging av undervisning, eller gir eksempler på spørsmål som kan stilles i forbindelse med gjennomføringen av konkrete aktiviteter. 
 
-Stiller spørsmål til innholdet som kan reflekteres over mens en leser, stiller spørsmål som kan danne utgangspunkt for planlegging av undervisning, eller gir eksempler på spørsmål som kan stilles i forbindelse med gjennomføringen av konkrete aktiviteter. 
+
 
 > [!success] Punkter for utprøving 
+> Ting vi oppfordrer deg til å prøve ut i undervisningen, planleggingsarbeid, eller som en del av egen- eller utviklings-arbeid.
 
-Ting vi oppfordrer deg til å prøve ut i undervisningen, planleggingsarbeid, eller som en del av egen- eller utviklings-arbeid.
+
+### Eksempel
+
+> [!tip]- Trykk på meg 
+> Noen kategorier er i utgangspunktet minimert, men kan trykkes på for å se innholdet.
+> Regnvika har også en veldig rask og god søkemotor. Trykk enten på `ctrl+k` eller trykk på søkeboksen til venstre. Undersøk selv hvordan den fungerer. Prøv eksempler som `6. trinn` eller `tenkende klasserom`. 
+> > [!danger] FIXME
+> > Vi kan også legge inn tagger som kan søkes, typ #btc eller #regneferdigheter osv osv. Er det noe vi skal gjøre/teste?
+

@@ -1,7 +1,7 @@
 {
   "showLineNumber": true,
   "showFrontmatter": true,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "userIgnoreFilters": null,
   "alwaysUpdateLinks": true,
