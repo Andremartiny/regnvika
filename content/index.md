@@ -15,7 +15,7 @@ Dette er en ressurs for alle som har lyst til å lære om tenkende klasserom, hv
 Bruk `ctrl+k` for å søke.
 
 - [[Regnvika/tenkende-klasserom/index|Hva er et tenkende klasserom]] – *en kort introduksjon til hensikten og hvordan den kobles til lærerrollen*
-- [[Regnvika/undervisningsressurser/oppgaver/index|Finn undervisningsressurser]] – *finn relevante oppgaver og andre ressurser*
+- [[Regnvika/undervisningsressurser/oppgaver/index|Finn undervisningsressurser]] – *finn relevante oppgaver*
 %%
 Løsningsoversikten er foreløpig et utkast. Aktiver lenken hvis den publiseres:
 - [[Regnvika/undervisningsressurser/oppgaver/losninger/index|Løsningsforslag]] – egne sider med framgangsmåter og drøftinger.

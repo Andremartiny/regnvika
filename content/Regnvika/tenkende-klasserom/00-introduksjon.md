@@ -2,58 +2,60 @@
 title: Introduksjon
 order: 100/100
 tags:
+  - btc
 ---
 
-`For å lære må man tenke`
+## For å lære må man tenke
 
-Dette er prinsippet som driver forskningen til Liljedahl. Målet i et tenkende klasserom, for å oppnå mest mulig læring hos flest mulig elever, blir dermed å få flest mulig elever til å tenke lengst/mest mulig.
+Dette enkle prinsippet ligger til grunn for forskningen til Peter Liljedahl. Skal vi legge til rette for mest mulig læring hos flest mulig elever, må målet være å få flest mulig elever til å tenke så mye og så lenge som mulig.
 
-Dette prinsippet er på ingen måte noe nytt eller noe revolusjonerende. Flere har nok hørt om problembasert læring, prosjektbasert læring, utforskende matematikk, inquiry og så videre og så videre. Det som muligens er unikt med rammeverket, *et tenkende klasserom* er hvordan det ser på de institusjonelle rammene og prøver å riste litt i ting som har vært statisk siden 
+Tanken er verken ny eller revolusjonerende. Vi kjenner den igjen fra problembasert læring, prosjektbasert læring, utforskende matematikk og andre tilnærminger der elevene selv skal være aktive og utforske matematikken.
 
-## Elevene tenker ikke selv
+> Liljedahls bidrag handler kanskje ikke først og fremst om en ny måte å forstå læring på. I stedet retter han oppmerksomheten mot alle de små og store tingene vi tar for gitt i klasserommet. Hvorfor sitter elevene vendt mot tavlen? Hvorfor viser vi gjerne hvordan en oppgave skal løses før elevene får prøve selv? Og hvorfor organiserer vi undervisningen slik vi gjør? Ved å utfordre slike etablerte praksiser undersøker han hvordan vi kan skape bedre betingelser for elevenes tenkning.
 
-Da Liljedahl observerte klasser i Canada, observerte han i en undersøkelse at elevene ikke alltid gjør det læreren har som intensjon. Han observerte at skolene, og oppbyggingen av klasserommene, la normer/rammer for undervisningen. Klasserommene var typisk det han kalte tradisjonelle, med tydelig front og strukturert for at læreren skulle formidle kunnskap til elevene.
+
+### Når aktivitet ikke er det samme som tenkning
+
+Da Liljedahl begynte å observere matematikktimer, oppdaget han at det var stor forskjell på hva lærerne ønsket at elevene skulle gjøre, og hva elevene faktisk gjorde.
+
+Han observerte blant annet timer der læreren først viste hvordan en oppgave skulle løses, før elevene fikk prøve selv. Men hva gjorde elevene egentlig? Mange forsøkte å kopiere framgangsmåten læreren hadde vist, uten nødvendigvis å forstå hvorfor den fungerte.
+
+![[../../vedlegg/hvagjorelevene.svg|400]]
+
+
+Det interessante var at elevene som etterlignet lærerens framgangsmåte, ofte oppfattet dette som nettopp det læreren ønsket at de skulle gjøre.
+
+
+### Å utfordre etablerte rammer
+
+Liljedahl begynte derfor å undersøke om problemet ikke bare handlet om hva lærere og elever gjorde, men også om **rammene som påvirket hva de gjorde**.
+
+Tenk på et vanlig klasserom. Elevene sitter ved pultene sine, vendt mot en tavle. Læreren står gjerne foran klassen og forklarer, mens elevene lytter. Når læreren er ferdig, får elevene oppgaver de skal arbeide med.
+
+Dette er en organisering de fleste av oss kjenner godt. Den er så selvfølgelig at vi sjelden stiller spørsmål ved den. Liljedahl beskriver slike etablerte måter å organisere undervisningen på som _institusjonelle normer_. De påvirker både hva læreren gjør, og hva elevene forventer å gjøre.
 
 ![[../../vedlegg/tradisjonell.svg]]
+*Det Liljedahl beskriver som et tradisjonelt klasserom.*
 
-Disse rammene i klasserommet førte til at undervisningen også naturlig nok ble typisk gitt ved at læreren forklarer på tavlen, elevene får lov til å prøve selv, og deretter gjennomgår man utvalgte oppgaver på tavlen. 
+Hva ville skje dersom vi begynte å utfordre disse normene?
 
-Dette er en intuitiv og naturlig måte å formidle på. Men Liljedahl observerte noe som overrasket han. Intensjonen til lærerne var som regel at elevene skulle tenke selv, men i hans undersøkelser så han at elevene
+Det var nettopp dette Liljedahl begynte å undersøke. Hva skjer hvis vi endrer på ting vi vanligvis tar for gitt? Hva om elevene står i stedet for å sitte? Hva om de arbeider i tilfeldig sammensatte grupper? Og hva om vi gir dem en oppgave før vi viser hvordan den skal løses?
 
-- Imiterer $\approx 53\%$
-- Later som $\approx  6\%$
-- Gjør alibi-handlinger $\approx 12\%$ 
-- Prøver selv $\approx 19\%$
-- Slapper av $\approx 10\%$
+Gjennom systematisk utprøving kom han fram til 14 praksiser som sammen danner rammeverket for et tenkende klasserom.
 
-> [!danger] FIXME her bør vi ha bilde
 
-## Institusjonelle normer
-
-Problemet som Liljedahl beskriver handler ikke om at lærere gjør noe galt, tvert i mot, lærere følger de normative strukturene som gjennomsyrer klasserom.
-
-### Hva kan et endret klasserom se ut som?
-
-Elevene får en oppgave de kan begynne å undersøke med kunnskap de allerede har. De arbeider i små grupper og gjør ideene sine synlige. Læreren lytter, undersøker hva de har forstått og gir støtte som hjelper dem til et nytt forsøk. 
-
-> [!danger] Er avsnittet over dumt? Får det lærere på bakfoten.
-> Vi må vel heller forme det som at BTC handler om å bryte normen og "miljøet"
-
-Senere samler læreren utvalgte deler av arbeidet. Klassen forklarer og sammenligner ideer, og læreren tydeliggjør matematikken de arbeider med. Hver elev får også anledning til å undersøke sin egen forståelse.
 
 ![[../../vedlegg/tenkende klasserom.svg]]
+*Slik kan tenkende klasserom se ut.*
 
-> [!note]- Merk 
-*Klasserommet og rutinene gir forventninger til hvem som skal forklare, og hvem elevene kan lære av. Slike forventninger kan undersøkes og endres.*
+Gå til [[01-oppgaver|notetet om oppgaver i et tenkende klasserom]] hvis du vil lese om første praksis i BTC
 
-### Lærerens oppgave
 
-Du har ansvar for oppgaven, deltakelsen og den matematiske retningen. Underveis trenger du å velge når elevene skal få mer tid, et spørsmål, et hint, en forklaring eller hjelp til å lære av en annen gruppe.
-
-Det kan være uvant både å undersøke uten en ferdig framgangsmåte og å følge opp flere ulike ideer. Begynn med et forberedt opplegg, og bruk det du observerer til å planlegge neste utprøving.
-
-> [!tip]- Prøve selv?
-> I [[../undervisningsressurser/kom-i-gang/første-time|prøv en første time]] finner du et forslag til oppgaven [[../undervisningsressurser/oppgaver/svarene-er|svarene-er]]. Test det ut, og etter timen kan du undersøke
-> - Hvem kom i gang, og hvem trengte mer støtte?
-> - Hvilke spørsmål fikk elevene til å prøve videre?
-> - Hva kunne hver enkelt forklare etter oppsummeringen?
+> [!tip]- Vil du prøve et tenkende klasserom? Start her
+> Du trenger ikke endre hele undervisningen på én gang. Begynn med én oppgave, og se hva som skjer.
+>  
+> I [[../undervisningsressurser/kom-i-gang/første-time|prøv en første time]] finner du et konkret undervisningsopplegg du kan teste med elevene dine. 
+> Etter timen kan du tenke over
+> - Hvem kom raskt i gang, og hvem trengte mer støtte?
+> - Hvilke spørsmål hjalp elevene videre?
+> - Hva kunne elevene forklare etterpå?
