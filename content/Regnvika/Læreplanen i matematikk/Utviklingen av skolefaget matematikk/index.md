@@ -1,6 +1,6 @@
 ---
 title: Utviklingen av skolefaget Matematikk
-order: "100"
+order: 100/100
 tags:
 ---
 På 1900-tallet utviklet skolen seg gradvis til den institusjonen vi kjenner i dag. Tidlig undervisning var i stor grad preget av det vi nå omtaler som overflatekunnskap, der læring handlet om memorering av fakta og prosedyrer formidlet av autoriteter som læreren og læreboken. Kunnskap ble betraktet som statisk og lite gjenstand for kritisk refleksjon eller utforskning (Sawyer, 2014).
