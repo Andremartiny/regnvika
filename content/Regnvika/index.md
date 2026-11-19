@@ -7,8 +7,8 @@ Regnvika er bygget opp av flere innholdsmapper, som er sortert under denne innho
 
 På innholdssidene i Regnvika benytter vi ikoner for å skille spørsmåls- og informasjons-kategorier. Disse er:
 
-> [!info] Definisjon 
-> Definerer et begrep - matematisk eller didaktisk
+> [!info] Definisjon eller tips 
+> Definerer et begrep - matematisk eller didaktisk, eller gir deg et praktisk tips om noe som kan være nyttig i forbindelse med at du leser på innholdssidene eller arbeider med innholdet.
 
 > [!tip] Forklaring 
 > Forklarer et begrep eller FIX ME
