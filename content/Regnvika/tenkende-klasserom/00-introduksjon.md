@@ -8,6 +8,8 @@ tags:
 
 Dette er prinsippet som driver forskningen til Liljedahl. Målet i et tenkende klasserom, for å oppnå mest mulig læring hos flest mulig elever, blir dermed å få flest mulig elever til å tenke lengst/mest mulig.
 
+Dette prinsippet er på ingen måte noe nytt eller noe revolusjonerende. Flere har nok hørt om problembasert læring, prosjektbasert læring, utforskende matematikk, inquiry og så videre og så videre. Det som muligens er unikt med rammeverket, *et tenkende klasserom* er hvordan det ser på de institusjonelle rammene og prøver å riste litt i ting som har vært statisk siden 
+
 ## Elevene tenker ikke selv
 
 Da Liljedahl observerte klasser i Canada, observerte han i en undersøkelse at elevene ikke alltid gjør det læreren har som intensjon. Han observerte at skolene, og oppbyggingen av klasserommene, la normer/rammer for undervisningen. Klasserommene var typisk det han kalte tradisjonelle, med tydelig front og strukturert for at læreren skulle formidle kunnskap til elevene.
