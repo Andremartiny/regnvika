@@ -10,21 +10,14 @@ På innholdssidene i Regnvika benytter vi ikoner for å skille spørsmåls- og i
 > [!info] Definisjon 
 > Definerer et begrep - matematisk eller didaktisk
 
-
-
 > [!tip] Forklaring 
 > Forklarer et begrep eller FIX ME
-
-
 
 > [!question] Spørsmål 
 > Stiller spørsmål til innholdet som kan reflekteres over mens en leser, stiller spørsmål som kan danne utgangspunkt for planlegging av undervisning, eller gir eksempler på spørsmål som kan stilles i forbindelse med gjennomføringen av konkrete aktiviteter. 
 
-
-
 > [!success] Punkter for utprøving 
 > Ting vi oppfordrer deg til å prøve ut i undervisningen, planleggingsarbeid, eller som en del av egen- eller utviklings-arbeid.
-
 
 ### Eksempel
 
