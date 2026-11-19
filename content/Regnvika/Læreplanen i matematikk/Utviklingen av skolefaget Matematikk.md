@@ -1,5 +1,5 @@
 ---
-title: Utviklingen av skolefaget Matematikk
+title: Introduksjon
 order: 100/100
 tags:
 ---
