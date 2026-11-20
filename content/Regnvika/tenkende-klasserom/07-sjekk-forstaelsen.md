@@ -10,8 +10,8 @@ relatert:
 
 Etter gruppearbeidet trenger eleven en mulighet til å undersøke hva hen selv har forstått. Mange skoler bruker lekser. En uheldig konsekvens av det er at mange opplever at oppgavene og leksene de gjør, er noe de gjør for å tilfredsstille læreren. Dette er ikke intensjonen med lekser. Derfor anbefaler BTC å bruke *test-din-forståelse*-oppgaver som en anledning til å prøve og få innsikt i egen forståelse. 
 
-![[../../vedlegg/sjekkselv.svg|200]]
-FIX bildet
+![[../../vedlegg/gruble.svg]]]
+
 
 ## Et forslag til bruk i skoletiden
 
