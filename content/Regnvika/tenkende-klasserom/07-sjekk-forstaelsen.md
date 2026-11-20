@@ -12,7 +12,6 @@ Etter gruppearbeidet trenger eleven en mulighet til å undersøke hva hen selv h
 
 ![[../../vedlegg/gruble.svg]]]
 
-
 ## Et forslag til bruk i skoletiden
 
 ## Tiltak mot et tenkende klasserom

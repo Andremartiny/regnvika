@@ -13,7 +13,6 @@ Tanken er verken ny eller revolusjonerende. Vi kjenner den igjen fra problembase
 
 > Liljedahls bidrag handler kanskje ikke først og fremst om en ny måte å forstå læring på. I stedet retter han oppmerksomheten mot alle de små og store tingene vi tar for gitt i klasserommet. Hvorfor sitter elevene vendt mot tavlen? Hvorfor viser vi gjerne hvordan en oppgave skal løses før elevene får prøve selv? Og hvorfor organiserer vi undervisningen slik vi gjør? Ved å utfordre slike etablerte praksiser undersøker han hvordan vi kan skape bedre betingelser for elevenes tenkning.
 
-
 ### Når aktivitet ikke er det samme som tenkning
 
 Da Liljedahl begynte å observere matematikktimer, oppdaget han at det var stor forskjell på hva lærerne ønsket at elevene skulle gjøre, og hva elevene faktisk gjorde.
@@ -22,9 +21,7 @@ Han observerte blant annet timer der læreren først viste hvordan en oppgave sk
 
 ![[../../vedlegg/hvagjorelevene.svg|400]]
 
-
 Det interessante var at elevene som etterlignet lærerens framgangsmåte, ofte oppfattet dette som nettopp det læreren ønsket at de skulle gjøre.
-
 
 ### Å utfordre etablerte rammer
 
@@ -43,13 +40,10 @@ Det var nettopp dette Liljedahl begynte å undersøke. Hva skjer hvis vi endrer 
 
 Gjennom systematisk utprøving kom han fram til 14 praksiser som sammen danner rammeverket for et tenkende klasserom.
 
-
-
 ![[../../vedlegg/tenkende klasserom.svg]]
 *Slik kan tenkende klasserom se ut.*
 
 Gå til [[01-oppgaver|notetet om oppgaver i et tenkende klasserom]] hvis du vil lese om første praksis i BTC
-
 
 > [!tip]- Vil du prøve et tenkende klasserom? Start her
 > Du trenger ikke endre hele undervisningen på én gang. Begynn med én oppgave, og se hva som skjer.
