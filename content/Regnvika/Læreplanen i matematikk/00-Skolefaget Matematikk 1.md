@@ -18,6 +18,8 @@ Det kan få oss til å lure:
 
 ## Hva sier læreplanene?
 
+![[../../vedlegg/læreplanene.svg|800]] FIXMEjegharglemt å skrive tekst i boksene...
+
 Går vi tilbake til 1939 da [normalplanen ](https://www.nb.no/items/URN:NBN:no-nb_digibok_2008041400045) kom, skulle elevene ikke bare sitte og ta imot kunnskap. Gjennom _arbeidsskoleprinsippet_ skulle de lære ved å være aktive, arbeide selvstendig og møte problemer knyttet til egne erfaringer og hverdagslivet.
 
 Det høres jo ganske kjent ut.
