@@ -1,6 +1,6 @@
 ---
 title: Skolefaget Matematikk
-order: 100/110
+order: 100/100
 tags:
 ---
 > [!question] **«Hva koster det å tapetsere dagligstua hjemme?»**
