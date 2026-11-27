@@ -3,8 +3,6 @@ title: Grunnleggende ferdigheter
 order: 100/120
 tags:
 ---
-### Grunnleggende ferdigheter i matematikk
-
 De grunnleggende ferdighetene ble innført med Kunnskapsløftet i 2006 og er videreført i LK20. Ferdighetene skal bidra til elevenes læring, identitetsutvikling og deltakelse i arbeids- og samfunnsliv. Ferdighetene skal ikke anses som *noe som kommer i tillegg til matematikkfaget*, men som del av den faglige kompetansen elevene skal utvikle i faget.
 
 I matematikk handler de grunnleggende ferdighetene om å kunne utrykke seg muntlig, lese, skrive, regne og bruke digitale verktøy. Til sammen gir disse ferdighetene elevene verktøy for å utforske matematikk, kommunisere ideer og utvikle forståelse.
