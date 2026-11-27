@@ -1,5 +1,5 @@
 ---
-title: Skolefaget Matematikk
+title: Tverrfaglige tema
 order: 100/110
 tags:
 ---
@@ -7,6 +7,8 @@ Når vi snakker om tverrfaglighet i matematikk, er det lett å tenke på samarbe
 
 > [!tip]- Eksempel - værmeldinger 
 >[Wiik](https://www.researchgate.net/publication/366696690_Trends_in_everyday_mathematics_the_case_of_newspaper_weather_forecasts#fullTextFileContent) viser blant annet hvordan værmeldingene i _VG_ og _Aftenposten_ har endret seg fra 1945 til 2015. Fram til 1980-tallet besto værmeldingene hovedsakelig av tekst som forklarte hvordan været ville bli. I dag dominerer tabeller, kart og grafer, mens mengden forklarende tekst er langt mindre.
+
+![[../../Files/Designer (3).png|688]]
 
 Eksempelet illustrerer ikke bare at værmeldingene ser annerledes ut, men at leseren også har fått en litt annen rolle. Der man tidligere fikk ferdig tolket informasjon, må man i dag selv lese, organisere og tolke dataene for å forstå hva de betyr i praksis. På mange måter har værmeldingene blitt langt mer matematiske. Denne utviklingen gjenspeiles også i læreplanen, hvor matematikk knyttes spesielt til de [[../undervisningsressurser/Læreplanen i matematikk/om-faget/tverrfaglige-temaer|tverrfaglige temaene]] _folkehelse og livsmestring_ og _demokrati og medborgerskap_.
 
