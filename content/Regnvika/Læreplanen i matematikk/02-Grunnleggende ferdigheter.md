@@ -1,5 +1,5 @@
 ---
-title: Skolefaget Matematikk
+title: Grunnleggende ferdigheter
 order: 100/120
 tags:
 ---
